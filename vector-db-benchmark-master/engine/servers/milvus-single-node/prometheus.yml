@@ -1,0 +1,14 @@
+# Prometheus 抓取 Milvus Standalone 指标（与 docker-compose 中服务名 standalone 通信）
+# Milvus 在容器内监听 9091，暴露 /metrics（Prometheus 文本格式）
+# 参考: https://milvus.io/docs/configure_monitor.md
+
+global:
+  scrape_interval: 10s
+  evaluation_interval: 10s
+
+scrape_configs:
+  - job_name: milvus
+    static_configs:
+      - targets:
+          - standalone:9091
+    metrics_path: /metrics

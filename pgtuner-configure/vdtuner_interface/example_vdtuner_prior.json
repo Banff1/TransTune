@@ -1,0 +1,163 @@
+{
+  "index_types": ["HNSW", "IVF_PQ", "IVF_FLAT", "IVF_SQ8", "FLAT", "SCANN", "AUTOINDEX"],
+  "tune_knobs": [
+    "index_type",
+    "M",
+    "efConstruction",
+    "ef",
+    "nlist",
+    "nprobe",
+    "m",
+    "nbits",
+    "reorder_k",
+    "dataCoord*segment*maxSize",
+    "queryCoord*autoHandoff",
+    "queryCoord*autoBalance",
+    "common*gracefulTime",
+    "dataNode*segment*insertBufSize",
+    "rootCoord*minSegmentSizeToEnableIndex",
+    "dataCoord*segment*sealProportion"
+  ],
+  "baseline": {
+    "index_type": "HNSW",
+    "M": 32,
+    "efConstruction": 256,
+    "ef": 500,
+    "nlist": 128,
+    "nprobe": 8,
+    "m": 16,
+    "nbits": 8,
+    "reorder_k": 500,
+    "dataCoord*segment*maxSize": 512,
+    "queryCoord*autoHandoff": true,
+    "queryCoord*autoBalance": true,
+    "common*gracefulTime": 5000,
+    "dataNode*segment*insertBufSize": 16777216,
+    "rootCoord*minSegmentSizeToEnableIndex": 1024,
+    "dataCoord*segment*sealProportion": 23
+  },
+  "index_type": {
+      "class": "type",
+      "type": "enum",
+      "default": "AUTOINDEX",
+      "enum_values": [
+          "FLAT",
+          "IVF_FLAT",
+          "IVF_SQ8",
+          "IVF_PQ",
+          "HNSW",
+          "SCANN",
+          "AUTOINDEX"
+      ]
+  },
+  "nlist": {
+      "class": "building",
+      "type": "integer",
+      "default": 128,
+      "min": 1,
+      "max": 10000
+  },
+  "nprobe": {
+      "class": "searching",
+      "type": "integer",
+      "default": 8,
+      "min": 1,
+      "max": 100
+  },
+  "m": {
+      "class": "building",
+      "type": "enum",
+      "default": 16,
+      "enum_values": [
+          1,
+          2,
+          4,
+          8,
+          16,
+          32,
+          64,
+          128
+      ]
+  },
+  "nbits": {
+      "class": "building",
+      "type": "integer",
+      "default": 8,
+      "min": 1,
+      "max": 10
+  },
+  "M": {
+      "class": "building",
+      "type": "integer",
+      "default": 32,
+      "min": 4,
+      "max": 64
+  },
+  "efConstruction": {
+      "class": "building",
+      "type": "integer",
+      "default": 256,
+      "min": 8,
+      "max": 512
+  },
+  "ef": {
+      "class": "searching",
+      "type": "integer",
+      "default": 500,
+      "min": 100,
+      "max": 1000
+  },
+  "reorder_k": {
+      "class": "searching",
+      "type": "integer",
+      "default": 500,
+      "min": 100,
+      "max": 1000
+  },
+  "dataCoord*segment*maxSize": {
+      "type": "integer",
+      "default": 512,
+      "min": 100,
+      "max": 10000
+  },
+  "dataCoord*segment*sealProportion": {
+      "type": "integer",
+      "default": 23,
+      "min": 1,
+      "max": 99
+  },
+  "queryCoord*autoHandoff": {
+      "type": "enum",
+      "default": true,
+      "enum_values": [
+          true,
+          false
+      ]
+  },
+  "queryCoord*autoBalance": {
+      "type": "enum",
+      "default": true,
+      "enum_values": [
+          true,
+          false
+      ]
+  },
+  "common*gracefulTime": {
+      "type": "integer",
+      "default": 5000,
+      "min": 100,
+      "max": 100000
+  },
+  "dataNode*segment*insertBufSize": {
+      "type": "integer",
+      "default": 16777216,
+      "min": 1000,
+      "max": 10000000000
+  },
+  "rootCoord*minSegmentSizeToEnableIndex": {
+      "type": "integer",
+      "default": 1024,
+      "min": 100,
+      "max": 10000
+  }
+}

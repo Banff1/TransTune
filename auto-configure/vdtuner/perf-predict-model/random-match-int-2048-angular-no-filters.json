@@ -1,0 +1,362 @@
+{
+  "dataset_file": "/path/to/TransTune/auto-configure/vdtuner/perf-predict-model/random-match-int-2048-angular-no-filters.xlsx",
+  "top_rps_configs": [
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9897100000000001,
+      "p95time": 0.004922531102783978,
+      "RPS": 966.4756884838132
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.99075,
+      "p95time": 0.004448707681149243,
+      "RPS": 965.2418857656043
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.99085,
+      "p95time": 0.004518913174979389,
+      "RPS": 962.8162591618819
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.98995,
+      "p95time": 0.004544300166890024,
+      "RPS": 961.7472127504539
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9762200000000001,
+      "p95time": 0.004354343563318249,
+      "RPS": 961.4575958643251
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.99056,
+      "p95time": 0.004420702788047491,
+      "RPS": 960.6578899003422
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.98951,
+      "p95time": 0.00441231622826308,
+      "RPS": 959.5667925851525
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9897299999999999,
+      "p95time": 0.004467196809127927,
+      "RPS": 958.72757679295
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.99982,
+      "p95time": 0.006372135225683449,
+      "RPS": 956.539521518068
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9907100000000001,
+      "p95time": 0.004401800385676324,
+      "RPS": 955.2893829475587
+    }
+  ],
+  "top_index_types": [
+    "SCANN",
+    "IVF_SQ8",
+    "IVF_PQ"
+  ],
+  "important_knobs": [
+    "Index_Type",
+    "efConstruction",
+    "ef",
+    "m",
+    "sealProportion",
+    "M",
+    "minSegmentSizeToIndex",
+    "gracefulTime",
+    "maxSize",
+    "nbits"
+  ],
+  "knob_importance": [
+    {
+      "knob": "Index_Type",
+      "importance": 0.7128087776434402
+    },
+    {
+      "knob": "efConstruction",
+      "importance": 0.14426922817906404
+    },
+    {
+      "knob": "ef",
+      "importance": 0.03859107380538767
+    },
+    {
+      "knob": "m",
+      "importance": 0.018866717247711162
+    },
+    {
+      "knob": "sealProportion",
+      "importance": 0.018693206072264733
+    },
+    {
+      "knob": "M",
+      "importance": 0.014354146842771282
+    },
+    {
+      "knob": "minSegmentSizeToIndex",
+      "importance": 0.009788782883584675
+    },
+    {
+      "knob": "gracefulTime",
+      "importance": 0.009729229691485571
+    },
+    {
+      "knob": "maxSize",
+      "importance": 0.00912109022550388
+    },
+    {
+      "knob": "nbits",
+      "importance": 0.007740550534479978
+    },
+    {
+      "knob": "insertBufSize",
+      "importance": 0.004594632583354509
+    },
+    {
+      "knob": "reorder_k",
+      "importance": 0.0028440096019600905
+    },
+    {
+      "knob": "nlist",
+      "importance": 0.0025341487180187963
+    },
+    {
+      "knob": "nprobe",
+      "importance": 0.0024272093879476133
+    },
+    {
+      "knob": "autoBalance",
+      "importance": 0.0018785785895226404
+    },
+    {
+      "knob": "autoHandoff",
+      "importance": 0.0017586179935032244
+    }
+  ],
+  "knob_ranges": {
+    "Index_Type": {
+      "type": "categorical",
+      "unique_values": [
+        "SCANN"
+      ],
+      "value_counts": {
+        "SCANN": 74
+      }
+    },
+    "efConstruction": {
+      "type": "numeric",
+      "min": 256.0,
+      "max": 256.0,
+      "mean": 256.0,
+      "median": 256.0,
+      "unique_values": [
+        256
+      ]
+    },
+    "ef": {
+      "type": "numeric",
+      "min": 500.0,
+      "max": 500.0,
+      "mean": 500.0,
+      "median": 500.0,
+      "unique_values": [
+        500
+      ]
+    },
+    "m": {
+      "type": "numeric",
+      "min": 16.0,
+      "max": 16.0,
+      "mean": 16.0,
+      "median": 16.0,
+      "unique_values": [
+        16
+      ]
+    },
+    "sealProportion": {
+      "type": "numeric",
+      "min": 0.01,
+      "max": 0.99,
+      "mean": 0.4827027027027027,
+      "median": 0.415,
+      "unique_values": [
+        0.01,
+        0.1,
+        0.12,
+        0.13,
+        0.17,
+        0.2,
+        0.23,
+        0.25,
+        0.26,
+        0.33,
+        0.35,
+        0.37,
+        0.4,
+        0.41,
+        0.42,
+        0.45,
+        0.48,
+        0.51,
+        0.53,
+        0.55,
+        0.56,
+        0.59,
+        0.74,
+        0.75,
+        0.76,
+        0.83,
+        0.9,
+        0.96,
+        0.99
+      ]
+    },
+    "M": {
+      "type": "numeric",
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0,
+      "median": 32.0,
+      "unique_values": [
+        32
+      ]
+    },
+    "minSegmentSizeToIndex": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 5168.5,
+      "median": 4809.0,
+      "unique_values": [
+        100,
+        585,
+        596,
+        629,
+        725,
+        908,
+        1069,
+        1386,
+        1427,
+        1443,
+        1445,
+        1788,
+        1818,
+        1820,
+        1935,
+        1938,
+        1997,
+        2059,
+        2071,
+        2076,
+        2119,
+        2292,
+        2390,
+        2470,
+        3022,
+        3202,
+        3229,
+        3642,
+        3809,
+        4176,
+        4186,
+        4306,
+        4392,
+        4536,
+        4673,
+        4945,
+        5011,
+        5593,
+        5610,
+        5736,
+        5858,
+        5950,
+        6589,
+        6651,
+        6734,
+        6907,
+        7116,
+        7184,
+        7405,
+        7549,
+        7776,
+        7942,
+        8169,
+        8302,
+        8663,
+        8971,
+        9098,
+        9417,
+        9466,
+        9475,
+        9893,
+        10000
+      ]
+    },
+    "gracefulTime": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 100000.0,
+      "mean": 43577.18918918919,
+      "median": 40786.0,
+      "unique_values": [
+        100,
+        26661,
+        40336,
+        41236,
+        43126,
+        46093,
+        50330,
+        52918,
+        56796,
+        60781,
+        61840,
+        62893,
+        67501,
+        70644,
+        75494,
+        86408,
+        87334,
+        95171,
+        95650,
+        100000
+      ]
+    },
+    "maxSize": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 5115.77027027027,
+      "median": 5341.5,
+      "unique_values": [
+        100,
+        1089,
+        3395,
+        4688,
+        5995,
+        10000
+      ]
+    },
+    "nbits": {
+      "type": "numeric",
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0,
+      "median": 8.0,
+      "unique_values": [
+        8
+      ]
+    }
+  }
+}

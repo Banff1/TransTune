@@ -1,0 +1,11 @@
+stopit
+typer
+requests
+numpy
+scikit-learn
+tqdm
+elasticsearch
+pymilvus
+opensearch-py
+redis
+weaviate

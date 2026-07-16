@@ -1,0 +1,7002 @@
+[
+  {
+    "iteration": 1,
+    "time": 232,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 1757,
+      "nprobe": 966,
+      "m": 4,
+      "nbits": 4,
+      "M": 52,
+      "efConstruction": 289,
+      "ef": 856,
+      "reorder_k": 629
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6502,
+      "dataCoord*segment*sealProportion": 0.7,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 16103,
+      "dataNode*segment*insertBufSize": 6004705020,
+      "rootCoord*minSegmentSizeToEnableIndex": 2686
+    },
+    "precisions": 0.24989,
+    "p95time": 0.019352161930873985,
+    "Time": 232,
+    "RPS": 575.5437223603118
+  },
+  {
+    "iteration": 2,
+    "time": 468,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9334,
+      "nprobe": 3826,
+      "m": 64,
+      "nbits": 7,
+      "M": 39,
+      "efConstruction": 449,
+      "ef": 565,
+      "reorder_k": 864
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5595,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 86364,
+      "dataNode*segment*insertBufSize": 7503322741,
+      "rootCoord*minSegmentSizeToEnableIndex": 8807
+    },
+    "precisions": 0.9750300000000001,
+    "p95time": 0.04857074178289619,
+    "Time": 234,
+    "RPS": 327.67565712755857
+  },
+  {
+    "iteration": 3,
+    "time": 674,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1306,
+      "nprobe": 52,
+      "m": 32,
+      "nbits": 7,
+      "M": 58,
+      "efConstruction": 90,
+      "ef": 325,
+      "reorder_k": 929
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9090,
+      "dataCoord*segment*sealProportion": 0.43,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 1634,
+      "dataNode*segment*insertBufSize": 5348323113,
+      "rootCoord*minSegmentSizeToEnableIndex": 7197
+    },
+    "precisions": 0.37068,
+    "p95time": 0.006267431331798433,
+    "Time": 205,
+    "RPS": 1268.2727019040412
+  },
+  {
+    "iteration": 4,
+    "time": 951,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4939,
+      "nprobe": 2864,
+      "m": 1,
+      "nbits": 1,
+      "M": 9,
+      "efConstruction": 66,
+      "ef": 916,
+      "reorder_k": 560
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4213,
+      "dataCoord*segment*sealProportion": 0.95,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 46135,
+      "dataNode*segment*insertBufSize": 8850613659,
+      "rootCoord*minSegmentSizeToEnableIndex": 199
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09321801168844103,
+    "Time": 276,
+    "RPS": 111.39727990628711
+  },
+  {
+    "iteration": 5,
+    "time": 1207,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 6329,
+      "nprobe": 5126,
+      "m": 16,
+      "nbits": 2,
+      "M": 33,
+      "efConstruction": 180,
+      "ef": 391,
+      "reorder_k": 409
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2395,
+      "dataCoord*segment*sealProportion": 0.11,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 38818,
+      "dataNode*segment*insertBufSize": 3687656241,
+      "rootCoord*minSegmentSizeToEnableIndex": 3616
+    },
+    "precisions": 0.9294400000000002,
+    "p95time": 0.06570294846314934,
+    "Time": 256,
+    "RPS": 285.3851771321512
+  },
+  {
+    "iteration": 6,
+    "time": 1557,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 4199,
+      "nprobe": 3947,
+      "m": 128,
+      "nbits": 9,
+      "M": 12,
+      "efConstruction": 379,
+      "ef": 729,
+      "reorder_k": 130
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7193,
+      "dataCoord*segment*sealProportion": 0.83,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 65173,
+      "dataNode*segment*insertBufSize": 2814314988,
+      "rootCoord*minSegmentSizeToEnableIndex": 5200
+    },
+    "precisions": 0.8226700000000001,
+    "p95time": 0.13192418292164804,
+    "Time": 349,
+    "RPS": 92.72962552402662
+  },
+  {
+    "iteration": 7,
+    "time": 1764,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 8255,
+      "nprobe": 1981,
+      "m": 2,
+      "nbits": 4,
+      "M": 25,
+      "efConstruction": 362,
+      "ef": 155,
+      "reorder_k": 344
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1414,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 71636,
+      "dataNode*segment*insertBufSize": 1209756309,
+      "rootCoord*minSegmentSizeToEnableIndex": 6561
+    },
+    "precisions": 0.9924400000000001,
+    "p95time": 0.004996186913922429,
+    "Time": 207,
+    "RPS": 1618.97299403236
+  },
+  {
+    "iteration": 8,
+    "time": 2042,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9966,
+      "nprobe": 4783,
+      "m": 64,
+      "nbits": 2,
+      "M": 26,
+      "efConstruction": 229,
+      "ef": 797,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 944,
+      "dataCoord*segment*sealProportion": 0.25,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 73273,
+      "dataNode*segment*insertBufSize": 6798660479,
+      "rootCoord*minSegmentSizeToEnableIndex": 1635
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09377945042215287,
+    "Time": 277,
+    "RPS": 110.56215612862945
+  },
+  {
+    "iteration": 9,
+    "time": 2308,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 7506,
+      "nprobe": 2552,
+      "m": 2,
+      "nbits": 4,
+      "M": 4,
+      "efConstruction": 410,
+      "ef": 356,
+      "reorder_k": 186
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2298,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 83254,
+      "dataNode*segment*insertBufSize": 8333154487,
+      "rootCoord*minSegmentSizeToEnableIndex": 9703
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08347701490856706,
+    "Time": 264,
+    "RPS": 174.83470200139644
+  },
+  {
+    "iteration": 10,
+    "time": 2516,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 5067,
+      "nprobe": 2786,
+      "m": 1,
+      "nbits": 8,
+      "M": 19,
+      "efConstruction": 270,
+      "ef": 920,
+      "reorder_k": 983
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2195,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 92903,
+      "dataNode*segment*insertBufSize": 1080473882,
+      "rootCoord*minSegmentSizeToEnableIndex": 9310
+    },
+    "precisions": 0.9992600000000003,
+    "p95time": 0.0057594341458752744,
+    "Time": 207,
+    "RPS": 1343.5537967135062
+  },
+  {
+    "iteration": 11,
+    "time": 2734,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 2365,
+      "nprobe": 685,
+      "m": 1,
+      "nbits": 2,
+      "M": 8,
+      "efConstruction": 238,
+      "ef": 197,
+      "reorder_k": 570
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 854,
+      "dataCoord*segment*sealProportion": 0.74,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 82228,
+      "dataNode*segment*insertBufSize": 46863442,
+      "rootCoord*minSegmentSizeToEnableIndex": 6431
+    },
+    "precisions": 0.9018200000000001,
+    "p95time": 0.02652047949377447,
+    "Time": 217,
+    "RPS": 624.3057286780192
+  },
+  {
+    "iteration": 12,
+    "time": 2955,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 2019,
+      "nprobe": 2019,
+      "m": 128,
+      "nbits": 3,
+      "M": 5,
+      "efConstruction": 404,
+      "ef": 872,
+      "reorder_k": 475
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2074,
+      "dataCoord*segment*sealProportion": 0.6,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 97608,
+      "dataNode*segment*insertBufSize": 9504476835,
+      "rootCoord*minSegmentSizeToEnableIndex": 9851
+    },
+    "precisions": 0.9755,
+    "p95time": 0.03238723238464443,
+    "Time": 220,
+    "RPS": 477.55831716995897
+  },
+  {
+    "iteration": 13,
+    "time": 3161,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9868,
+      "nprobe": 1282,
+      "m": 128,
+      "nbits": 5,
+      "M": 28,
+      "efConstruction": 75,
+      "ef": 215,
+      "reorder_k": 424
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 869,
+      "dataCoord*segment*sealProportion": 0.94,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 88621,
+      "dataNode*segment*insertBufSize": 9091392846,
+      "rootCoord*minSegmentSizeToEnableIndex": 8458
+    },
+    "precisions": 0.99559,
+    "p95time": 0.004909955617040394,
+    "Time": 205,
+    "RPS": 1638.2215754328574
+  },
+  {
+    "iteration": 14,
+    "time": 3427,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9639,
+      "nprobe": 3373,
+      "m": 16,
+      "nbits": 3,
+      "M": 11,
+      "efConstruction": 460,
+      "ef": 669,
+      "reorder_k": 939
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9484,
+      "dataCoord*segment*sealProportion": 0.11,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 73432,
+      "dataNode*segment*insertBufSize": 9610447326,
+      "rootCoord*minSegmentSizeToEnableIndex": 8487
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08839377481490372,
+    "Time": 265,
+    "RPS": 167.08977916335454
+  },
+  {
+    "iteration": 15,
+    "time": 3658,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 971,
+      "nprobe": 941,
+      "m": 8,
+      "nbits": 4,
+      "M": 33,
+      "efConstruction": 43,
+      "ef": 1000,
+      "reorder_k": 564
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1480,
+      "dataCoord*segment*sealProportion": 0.09,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 53676,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 8346
+    },
+    "precisions": 0.24916999999999997,
+    "p95time": 0.019707683334127063,
+    "Time": 230,
+    "RPS": 561.0851254938774
+  },
+  {
+    "iteration": 16,
+    "time": 3897,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 8849,
+      "nprobe": 7964,
+      "m": 32,
+      "nbits": 2,
+      "M": 6,
+      "efConstruction": 25,
+      "ef": 260,
+      "reorder_k": 263
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.69,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 99251,
+      "dataNode*segment*insertBufSize": 4879102324,
+      "rootCoord*minSegmentSizeToEnableIndex": 3099
+    },
+    "precisions": 0.08116999999999999,
+    "p95time": 0.06095118119847028,
+    "Time": 237,
+    "RPS": 295.6354766090178
+  },
+  {
+    "iteration": 17,
+    "time": 4106,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 6121,
+      "nprobe": 4407,
+      "m": 2,
+      "nbits": 1,
+      "M": 5,
+      "efConstruction": 500,
+      "ef": 165,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 403,
+      "dataCoord*segment*sealProportion": 0.81,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 19496,
+      "dataNode*segment*insertBufSize": 3978309339,
+      "rootCoord*minSegmentSizeToEnableIndex": 7165
+    },
+    "precisions": 0.99931,
+    "p95time": 0.00598872553091496,
+    "Time": 208,
+    "RPS": 1336.9427323274822
+  },
+  {
+    "iteration": 18,
+    "time": 4369,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 7363,
+      "nprobe": 662,
+      "m": 1,
+      "nbits": 1,
+      "M": 26,
+      "efConstruction": 238,
+      "ef": 849,
+      "reorder_k": 374
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 881,
+      "dataCoord*segment*sealProportion": 0.74,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 1421,
+      "dataNode*segment*insertBufSize": 975750469,
+      "rootCoord*minSegmentSizeToEnableIndex": 2445
+    },
+    "precisions": 0.9636,
+    "p95time": 0.09211810911074281,
+    "Time": 262,
+    "RPS": 239.9864675201355
+  },
+  {
+    "iteration": 19,
+    "time": 4589,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 7417,
+      "nprobe": 3411,
+      "m": 1,
+      "nbits": 8,
+      "M": 44,
+      "efConstruction": 181,
+      "ef": 933,
+      "reorder_k": 978
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2924,
+      "dataCoord*segment*sealProportion": 0.71,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 88415,
+      "dataNode*segment*insertBufSize": 94561505,
+      "rootCoord*minSegmentSizeToEnableIndex": 5721
+    },
+    "precisions": 0.00858,
+    "p95time": 0.025750378100201483,
+    "Time": 219,
+    "RPS": 655.0975036018373
+  },
+  {
+    "iteration": 20,
+    "time": 4852,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 4857,
+      "nprobe": 2719,
+      "m": 64,
+      "nbits": 1,
+      "M": 52,
+      "efConstruction": 106,
+      "ef": 996,
+      "reorder_k": 624
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 874,
+      "dataCoord*segment*sealProportion": 0.13,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 7702,
+      "dataNode*segment*insertBufSize": 223146686,
+      "rootCoord*minSegmentSizeToEnableIndex": 5429
+    },
+    "precisions": 0.99945,
+    "p95time": 0.0730016541900113,
+    "Time": 262,
+    "RPS": 183.96946872788732
+  },
+  {
+    "iteration": 21,
+    "time": 5131,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9677,
+      "nprobe": 8902,
+      "m": 32,
+      "nbits": 2,
+      "M": 51,
+      "efConstruction": 357,
+      "ef": 897,
+      "reorder_k": 221
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.83,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 98154,
+      "dataNode*segment*insertBufSize": 9140269842,
+      "rootCoord*minSegmentSizeToEnableIndex": 4687
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09380878382362424,
+    "Time": 277,
+    "RPS": 111.36244811494537
+  },
+  {
+    "iteration": 22,
+    "time": 5361,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2999,
+      "nprobe": 329,
+      "m": 4,
+      "nbits": 9,
+      "M": 10,
+      "efConstruction": 479,
+      "ef": 227,
+      "reorder_k": 983
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 757,
+      "dataCoord*segment*sealProportion": 0.32,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 1012,
+      "dataNode*segment*insertBufSize": 4414380155,
+      "rootCoord*minSegmentSizeToEnableIndex": 1318
+    },
+    "precisions": 0.71178,
+    "p95time": 0.026734011131338768,
+    "Time": 229,
+    "RPS": 464.373914819419
+  },
+  {
+    "iteration": 23,
+    "time": 5626,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 8525,
+      "nprobe": 7672,
+      "m": 1,
+      "nbits": 1,
+      "M": 48,
+      "efConstruction": 239,
+      "ef": 100,
+      "reorder_k": 328
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3267,
+      "dataCoord*segment*sealProportion": 0.65,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 86338,
+      "dataNode*segment*insertBufSize": 7927327959,
+      "rootCoord*minSegmentSizeToEnableIndex": 1033
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08522673142142591,
+    "Time": 264,
+    "RPS": 171.26026266258316
+  },
+  {
+    "iteration": 24,
+    "time": 5884,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 4107,
+      "nprobe": 246,
+      "m": 4,
+      "nbits": 1,
+      "M": 56,
+      "efConstruction": 37,
+      "ef": 1000,
+      "reorder_k": 188
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1386,
+      "dataCoord*segment*sealProportion": 0.21,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 67122,
+      "dataNode*segment*insertBufSize": 6334208020,
+      "rootCoord*minSegmentSizeToEnableIndex": 1466
+    },
+    "precisions": 0.9796,
+    "p95time": 0.05568141739349812,
+    "Time": 257,
+    "RPS": 231.84644867598448
+  },
+  {
+    "iteration": 25,
+    "time": 6091,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9814,
+      "nprobe": 883,
+      "m": 4,
+      "nbits": 7,
+      "M": 55,
+      "efConstruction": 103,
+      "ef": 339,
+      "reorder_k": 177
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9068,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 94319,
+      "dataNode*segment*insertBufSize": 6041417517,
+      "rootCoord*minSegmentSizeToEnableIndex": 2477
+    },
+    "precisions": 0.97988,
+    "p95time": 0.004594681155867875,
+    "Time": 206,
+    "RPS": 1637.0088598244588
+  },
+  {
+    "iteration": 26,
+    "time": 6369,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 255,
+      "nprobe": 5,
+      "m": 1,
+      "nbits": 5,
+      "M": 24,
+      "efConstruction": 369,
+      "ef": 915,
+      "reorder_k": 257
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 383,
+      "dataCoord*segment*sealProportion": 0.09,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 80210,
+      "dataNode*segment*insertBufSize": 9005014399,
+      "rootCoord*minSegmentSizeToEnableIndex": 9319
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09170168822165578,
+    "Time": 277,
+    "RPS": 111.45122504404607
+  },
+  {
+    "iteration": 27,
+    "time": 6599,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 7584,
+      "nprobe": 7128,
+      "m": 64,
+      "nbits": 1,
+      "M": 48,
+      "efConstruction": 472,
+      "ef": 779,
+      "reorder_k": 184
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1372,
+      "dataCoord*segment*sealProportion": 0.31,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 55030,
+      "dataNode*segment*insertBufSize": 5060292976,
+      "rootCoord*minSegmentSizeToEnableIndex": 3553
+    },
+    "precisions": 0.24791,
+    "p95time": 0.019477584143169222,
+    "Time": 230,
+    "RPS": 554.276979760728
+  },
+  {
+    "iteration": 28,
+    "time": 6878,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9188,
+      "nprobe": 8085,
+      "m": 1,
+      "nbits": 7,
+      "M": 20,
+      "efConstruction": 150,
+      "ef": 340,
+      "reorder_k": 290
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.52,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 21729,
+      "dataNode*segment*insertBufSize": 9064576719,
+      "rootCoord*minSegmentSizeToEnableIndex": 2647
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09175810443703085,
+    "Time": 277,
+    "RPS": 110.35308137478643
+  },
+  {
+    "iteration": 29,
+    "time": 7085,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9631,
+      "nprobe": 3948,
+      "m": 1,
+      "nbits": 1,
+      "M": 13,
+      "efConstruction": 99,
+      "ef": 785,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4411,
+      "dataCoord*segment*sealProportion": 0.78,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 2246,
+      "dataNode*segment*insertBufSize": 1096059080,
+      "rootCoord*minSegmentSizeToEnableIndex": 6240
+    },
+    "precisions": 0.9564900000000002,
+    "p95time": 0.004542450094595552,
+    "Time": 206,
+    "RPS": 1722.528090863111
+  },
+  {
+    "iteration": 30,
+    "time": 7309,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 989,
+      "nprobe": 316,
+      "m": 128,
+      "nbits": 3,
+      "M": 32,
+      "efConstruction": 8,
+      "ef": 162,
+      "reorder_k": 773
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 846,
+      "dataCoord*segment*sealProportion": 0.15,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 52364,
+      "dataNode*segment*insertBufSize": 3362936147,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.7621600000000001,
+    "p95time": 0.032570440182462336,
+    "Time": 222,
+    "RPS": 375.914840150027
+  },
+  {
+    "iteration": 31,
+    "time": 7589,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9657,
+      "nprobe": 7629,
+      "m": 1,
+      "nbits": 5,
+      "M": 57,
+      "efConstruction": 510,
+      "ef": 883,
+      "reorder_k": 797
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7272,
+      "dataCoord*segment*sealProportion": 0.29,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 35649,
+      "dataNode*segment*insertBufSize": 5100467098,
+      "rootCoord*minSegmentSizeToEnableIndex": 1606
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09381531765684485,
+    "Time": 279,
+    "RPS": 110.70163963767389
+  },
+  {
+    "iteration": 32,
+    "time": 7827,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 10000,
+      "nprobe": 1500,
+      "m": 8,
+      "nbits": 9,
+      "M": 31,
+      "efConstruction": 161,
+      "ef": 728,
+      "reorder_k": 120
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4033,
+      "dataCoord*segment*sealProportion": 0.11,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 9139906850,
+      "rootCoord*minSegmentSizeToEnableIndex": 8840
+    },
+    "precisions": 0.10284000000000001,
+    "p95time": 0.04097643373534081,
+    "Time": 237,
+    "RPS": 381.2130884330274
+  },
+  {
+    "iteration": 33,
+    "time": 8090,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 3788,
+      "nprobe": 3144,
+      "m": 128,
+      "nbits": 1,
+      "M": 17,
+      "efConstruction": 45,
+      "ef": 232,
+      "reorder_k": 437
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9779,
+      "dataCoord*segment*sealProportion": 0.14,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 82017,
+      "dataNode*segment*insertBufSize": 8240123567,
+      "rootCoord*minSegmentSizeToEnableIndex": 1586
+    },
+    "precisions": 0.9999,
+    "p95time": 0.07207362870685755,
+    "Time": 262,
+    "RPS": 176.56821709759365
+  },
+  {
+    "iteration": 34,
+    "time": 8327,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9030,
+      "nprobe": 7494,
+      "m": 32,
+      "nbits": 1,
+      "M": 20,
+      "efConstruction": 512,
+      "ef": 903,
+      "reorder_k": 489
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9768,
+      "dataCoord*segment*sealProportion": 0.28,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 70983,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 1811
+    },
+    "precisions": 0.97462,
+    "p95time": 0.04773194699082523,
+    "Time": 235,
+    "RPS": 318.99613430026153
+  },
+  {
+    "iteration": 35,
+    "time": 8594,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 8862,
+      "nprobe": 8507,
+      "m": 128,
+      "nbits": 2,
+      "M": 23,
+      "efConstruction": 206,
+      "ef": 303,
+      "reorder_k": 534
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7197,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 6854,
+      "dataNode*segment*insertBufSize": 3594196483,
+      "rootCoord*minSegmentSizeToEnableIndex": 4132
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0853391057113185,
+    "Time": 265,
+    "RPS": 170.17304646460065
+  },
+  {
+    "iteration": 36,
+    "time": 8871,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6376,
+      "nprobe": 4782,
+      "m": 1,
+      "nbits": 2,
+      "M": 7,
+      "efConstruction": 512,
+      "ef": 168,
+      "reorder_k": 660
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2315,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 4292,
+      "dataNode*segment*insertBufSize": 7859664773,
+      "rootCoord*minSegmentSizeToEnableIndex": 4652
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0928993482608348,
+    "Time": 277,
+    "RPS": 111.73548348143218
+  },
+  {
+    "iteration": 37,
+    "time": 9135,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 4733,
+      "nprobe": 3928,
+      "m": 128,
+      "nbits": 1,
+      "M": 63,
+      "efConstruction": 263,
+      "ef": 722,
+      "reorder_k": 432
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.32,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 1954000055,
+      "rootCoord*minSegmentSizeToEnableIndex": 5041
+    },
+    "precisions": 0.9999400000000002,
+    "p95time": 0.0733322532614693,
+    "Time": 263,
+    "RPS": 182.77530677180053
+  },
+  {
+    "iteration": 38,
+    "time": 9413,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9032,
+      "nprobe": 5690,
+      "m": 16,
+      "nbits": 1,
+      "M": 12,
+      "efConstruction": 476,
+      "ef": 426,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1888,
+      "dataCoord*segment*sealProportion": 0.76,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 20141,
+      "dataNode*segment*insertBufSize": 3373559779,
+      "rootCoord*minSegmentSizeToEnableIndex": 488
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09334556860849261,
+    "Time": 277,
+    "RPS": 111.02611087247149
+  },
+  {
+    "iteration": 39,
+    "time": 9620,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 6447,
+      "nprobe": 64,
+      "m": 2,
+      "nbits": 1,
+      "M": 64,
+      "efConstruction": 386,
+      "ef": 132,
+      "reorder_k": 719
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8782,
+      "dataCoord*segment*sealProportion": 0.17,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 7625015019,
+      "rootCoord*minSegmentSizeToEnableIndex": 2586
+    },
+    "precisions": 0.8184300000000001,
+    "p95time": 0.003934919857420027,
+    "Time": 207,
+    "RPS": 1698.3941604830327
+  },
+  {
+    "iteration": 40,
+    "time": 9886,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9092,
+      "nprobe": 9092,
+      "m": 1,
+      "nbits": 2,
+      "M": 54,
+      "efConstruction": 288,
+      "ef": 100,
+      "reorder_k": 954
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2501,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 5152732618,
+      "rootCoord*minSegmentSizeToEnableIndex": 6324
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08345205974765116,
+    "Time": 265,
+    "RPS": 169.99115702149086
+  },
+  {
+    "iteration": 41,
+    "time": 10118,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 8263,
+      "nprobe": 5040,
+      "m": 8,
+      "nbits": 3,
+      "M": 8,
+      "efConstruction": 440,
+      "ef": 396,
+      "reorder_k": 886
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8495,
+      "dataCoord*segment*sealProportion": 0.77,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 94708,
+      "dataNode*segment*insertBufSize": 1907236342,
+      "rootCoord*minSegmentSizeToEnableIndex": 9670
+    },
+    "precisions": 0.24806999999999998,
+    "p95time": 0.02005278966389594,
+    "Time": 231,
+    "RPS": 564.7725970528311
+  },
+  {
+    "iteration": 42,
+    "time": 10327,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 212,
+      "nprobe": 201,
+      "m": 8,
+      "nbits": 1,
+      "M": 53,
+      "efConstruction": 380,
+      "ef": 166,
+      "reorder_k": 731
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9002,
+      "dataCoord*segment*sealProportion": 0.42,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 77599,
+      "dataNode*segment*insertBufSize": 4393082523,
+      "rootCoord*minSegmentSizeToEnableIndex": 8553
+    },
+    "precisions": 0.9773799999999999,
+    "p95time": 0.017466096486896274,
+    "Time": 208,
+    "RPS": 579.4195940554944
+  },
+  {
+    "iteration": 43,
+    "time": 10605,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1403,
+      "nprobe": 1066,
+      "m": 1,
+      "nbits": 1,
+      "M": 22,
+      "efConstruction": 387,
+      "ef": 980,
+      "reorder_k": 465
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9924,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 72659,
+      "dataNode*segment*insertBufSize": 718822885,
+      "rootCoord*minSegmentSizeToEnableIndex": 2187
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09437132847961038,
+    "Time": 277,
+    "RPS": 110.8415381708583
+  },
+  {
+    "iteration": 44,
+    "time": 10818,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 7930,
+      "nprobe": 872,
+      "m": 2,
+      "nbits": 4,
+      "M": 13,
+      "efConstruction": 486,
+      "ef": 598,
+      "reorder_k": 813
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8794,
+      "dataCoord*segment*sealProportion": 0.95,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 5527,
+      "dataNode*segment*insertBufSize": 9504292060,
+      "rootCoord*minSegmentSizeToEnableIndex": 7967
+    },
+    "precisions": 0.06043,
+    "p95time": 0.0167117753997445,
+    "Time": 212,
+    "RPS": 1059.8644309922324
+  },
+  {
+    "iteration": 45,
+    "time": 11049,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9801,
+      "nprobe": 1274,
+      "m": 32,
+      "nbits": 2,
+      "M": 52,
+      "efConstruction": 131,
+      "ef": 422,
+      "reorder_k": 530
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7967,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 96738,
+      "dataNode*segment*insertBufSize": 9626674689,
+      "rootCoord*minSegmentSizeToEnableIndex": 1627
+    },
+    "precisions": 0.95945,
+    "p95time": 0.04036562070250511,
+    "Time": 230,
+    "RPS": 386.1357451871152
+  },
+  {
+    "iteration": 46,
+    "time": 11330,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7557,
+      "nprobe": 3022,
+      "m": 1,
+      "nbits": 2,
+      "M": 28,
+      "efConstruction": 105,
+      "ef": 100,
+      "reorder_k": 344
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2726,
+      "dataCoord*segment*sealProportion": 0.81,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 61190,
+      "dataNode*segment*insertBufSize": 261353837,
+      "rootCoord*minSegmentSizeToEnableIndex": 9475
+    },
+    "precisions": 0.99997,
+    "p95time": 0.094955113530159,
+    "Time": 279,
+    "RPS": 110.05355357573654
+  },
+  {
+    "iteration": 47,
+    "time": 11558,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 2025,
+      "nprobe": 931,
+      "m": 16,
+      "nbits": 2,
+      "M": 58,
+      "efConstruction": 403,
+      "ef": 114,
+      "reorder_k": 526
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2374,
+      "dataCoord*segment*sealProportion": 0.02,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 81627,
+      "dataNode*segment*insertBufSize": 2825323464,
+      "rootCoord*minSegmentSizeToEnableIndex": 5718
+    },
+    "precisions": 0.24861,
+    "p95time": 0.020746240974403918,
+    "Time": 227,
+    "RPS": 564.6140528037483
+  },
+  {
+    "iteration": 48,
+    "time": 11766,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9431,
+      "nprobe": 1037,
+      "m": 32,
+      "nbits": 3,
+      "M": 57,
+      "efConstruction": 13,
+      "ef": 965,
+      "reorder_k": 362
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7278,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 24989,
+      "dataNode*segment*insertBufSize": 773774190,
+      "rootCoord*minSegmentSizeToEnableIndex": 7593
+    },
+    "precisions": 0.9940400000000001,
+    "p95time": 0.004760135174728929,
+    "Time": 206,
+    "RPS": 1684.6810799270247
+  },
+  {
+    "iteration": 49,
+    "time": 12031,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9339,
+      "nprobe": 2334,
+      "m": 4,
+      "nbits": 2,
+      "M": 8,
+      "efConstruction": 118,
+      "ef": 598,
+      "reorder_k": 308
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.84,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 22864,
+      "dataNode*segment*insertBufSize": 9744038011,
+      "rootCoord*minSegmentSizeToEnableIndex": 454
+    },
+    "precisions": 0.99987,
+    "p95time": 0.08518728984054177,
+    "Time": 264,
+    "RPS": 169.26740704532108
+  },
+  {
+    "iteration": 50,
+    "time": 12246,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 9864,
+      "nprobe": 789,
+      "m": 4,
+      "nbits": 1,
+      "M": 64,
+      "efConstruction": 133,
+      "ef": 579,
+      "reorder_k": 474
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8552,
+      "dataCoord*segment*sealProportion": 0.87,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 93301,
+      "dataNode*segment*insertBufSize": 209410461,
+      "rootCoord*minSegmentSizeToEnableIndex": 246
+    },
+    "precisions": 0.03455,
+    "p95time": 0.019809429743327195,
+    "Time": 215,
+    "RPS": 816.3288666443664
+  },
+  {
+    "iteration": 51,
+    "time": 12470,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2277,
+      "nprobe": 273,
+      "m": 32,
+      "nbits": 1,
+      "M": 39,
+      "efConstruction": 26,
+      "ef": 141,
+      "reorder_k": 563
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9622,
+      "dataCoord*segment*sealProportion": 0.74,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 63973,
+      "dataNode*segment*insertBufSize": 3052684763,
+      "rootCoord*minSegmentSizeToEnableIndex": 9786
+    },
+    "precisions": 0.69169,
+    "p95time": 0.02901247434783725,
+    "Time": 222,
+    "RPS": 496.27939474318197
+  },
+  {
+    "iteration": 52,
+    "time": 12709,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 10000,
+      "nprobe": 10000,
+      "m": 4,
+      "nbits": 5,
+      "M": 64,
+      "efConstruction": 52,
+      "ef": 100,
+      "reorder_k": 505
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9521,
+      "dataCoord*segment*sealProportion": 0.14,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 19546,
+      "dataNode*segment*insertBufSize": 688643790,
+      "rootCoord*minSegmentSizeToEnableIndex": 7588
+    },
+    "precisions": 0.97552,
+    "p95time": 0.04873297174926846,
+    "Time": 237,
+    "RPS": 314.16467335463494
+  },
+  {
+    "iteration": 53,
+    "time": 12944,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 8205,
+      "nprobe": 7794,
+      "m": 64,
+      "nbits": 2,
+      "M": 11,
+      "efConstruction": 512,
+      "ef": 485,
+      "reorder_k": 253
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6066,
+      "dataCoord*segment*sealProportion": 0.12,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 32948,
+      "dataNode*segment*insertBufSize": 8176126662,
+      "rootCoord*minSegmentSizeToEnableIndex": 1215
+    },
+    "precisions": 0.9747900000000002,
+    "p95time": 0.04723540470004079,
+    "Time": 234,
+    "RPS": 336.2157773010936
+  },
+  {
+    "iteration": 54,
+    "time": 13152,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9854,
+      "nprobe": 9854,
+      "m": 4,
+      "nbits": 2,
+      "M": 62,
+      "efConstruction": 178,
+      "ef": 945,
+      "reorder_k": 560
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9616,
+      "dataCoord*segment*sealProportion": 0.44,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 28834,
+      "dataNode*segment*insertBufSize": 9119544713,
+      "rootCoord*minSegmentSizeToEnableIndex": 8168
+    },
+    "precisions": 0.9974299999999999,
+    "p95time": 0.005510141397826373,
+    "Time": 206,
+    "RPS": 1407.3072080556565
+  },
+  {
+    "iteration": 55,
+    "time": 13381,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 9404,
+      "nprobe": 9404,
+      "m": 2,
+      "nbits": 10,
+      "M": 5,
+      "efConstruction": 120,
+      "ef": 318,
+      "reorder_k": 345
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7134,
+      "dataCoord*segment*sealProportion": 0.45,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 89112,
+      "dataNode*segment*insertBufSize": 4736521174,
+      "rootCoord*minSegmentSizeToEnableIndex": 2149
+    },
+    "precisions": 0.24781999999999998,
+    "p95time": 0.01932383712846785,
+    "Time": 228,
+    "RPS": 584.554540842701
+  },
+  {
+    "iteration": 56,
+    "time": 13659,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7526,
+      "nprobe": 6321,
+      "m": 128,
+      "nbits": 1,
+      "M": 19,
+      "efConstruction": 269,
+      "ef": 160,
+      "reorder_k": 479
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 850,
+      "dataCoord*segment*sealProportion": 0.3,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 22851,
+      "dataNode*segment*insertBufSize": 537156812,
+      "rootCoord*minSegmentSizeToEnableIndex": 5942
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09342738038394599,
+    "Time": 276,
+    "RPS": 111.13166606328207
+  },
+  {
+    "iteration": 57,
+    "time": 13937,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9068,
+      "nprobe": 6710,
+      "m": 64,
+      "nbits": 5,
+      "M": 49,
+      "efConstruction": 299,
+      "ef": 633,
+      "reorder_k": 827
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3519,
+      "dataCoord*segment*sealProportion": 0.71,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 6026,
+      "dataNode*segment*insertBufSize": 4111402921,
+      "rootCoord*minSegmentSizeToEnableIndex": 939
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09420877976808696,
+    "Time": 278,
+    "RPS": 110.06019981835527
+  },
+  {
+    "iteration": 58,
+    "time": 14187,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 3993,
+      "nprobe": 1078,
+      "m": 128,
+      "nbits": 9,
+      "M": 5,
+      "efConstruction": 241,
+      "ef": 871,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9912,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 76623,
+      "dataNode*segment*insertBufSize": 4106156521,
+      "rootCoord*minSegmentSizeToEnableIndex": 7460
+    },
+    "precisions": 0.9633,
+    "p95time": 0.05619216575287282,
+    "Time": 249,
+    "RPS": 231.49989735370008
+  },
+  {
+    "iteration": 59,
+    "time": 14465,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6117,
+      "nprobe": 4281,
+      "m": 128,
+      "nbits": 8,
+      "M": 48,
+      "efConstruction": 419,
+      "ef": 161,
+      "reorder_k": 552
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8841,
+      "dataCoord*segment*sealProportion": 0.05,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 6960,
+      "dataNode*segment*insertBufSize": 3366520472,
+      "rootCoord*minSegmentSizeToEnableIndex": 9557
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09508996868971735,
+    "Time": 278,
+    "RPS": 110.63986024540901
+  },
+  {
+    "iteration": 60,
+    "time": 14700,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9784,
+      "nprobe": 2543,
+      "m": 64,
+      "nbits": 2,
+      "M": 38,
+      "efConstruction": 45,
+      "ef": 542,
+      "reorder_k": 128
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2193,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 47725,
+      "dataNode*segment*insertBufSize": 9302990506,
+      "rootCoord*minSegmentSizeToEnableIndex": 8138
+    },
+    "precisions": 0.97482,
+    "p95time": 0.04739906264003363,
+    "Time": 234,
+    "RPS": 330.7476536414296
+  },
+  {
+    "iteration": 61,
+    "time": 14917,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 6850,
+      "nprobe": 1507,
+      "m": 1,
+      "nbits": 3,
+      "M": 28,
+      "efConstruction": 38,
+      "ef": 554,
+      "reorder_k": 103
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6001,
+      "dataCoord*segment*sealProportion": 0.15,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 96899,
+      "dataNode*segment*insertBufSize": 7126092602,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.058120000000000005,
+    "p95time": 0.022784723341464995,
+    "Time": 215,
+    "RPS": 770.7350125652537
+  },
+  {
+    "iteration": 62,
+    "time": 15132,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 9749,
+      "nprobe": 1559,
+      "m": 1,
+      "nbits": 5,
+      "M": 6,
+      "efConstruction": 410,
+      "ef": 924,
+      "reorder_k": 782
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.48,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 22810,
+      "dataNode*segment*insertBufSize": 2840154588,
+      "rootCoord*minSegmentSizeToEnableIndex": 8945
+    },
+    "precisions": 0.035089999999999996,
+    "p95time": 0.0214413495035842,
+    "Time": 214,
+    "RPS": 833.5503916051208
+  },
+  {
+    "iteration": 63,
+    "time": 15360,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 5283,
+      "nprobe": 3539,
+      "m": 1,
+      "nbits": 9,
+      "M": 57,
+      "efConstruction": 512,
+      "ef": 361,
+      "reorder_k": 851
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4942,
+      "dataCoord*segment*sealProportion": 0.23,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 84583,
+      "dataNode*segment*insertBufSize": 211383170,
+      "rootCoord*minSegmentSizeToEnableIndex": 946
+    },
+    "precisions": 0.00918,
+    "p95time": 0.029479731409810483,
+    "Time": 225,
+    "RPS": 542.8091841001036
+  },
+  {
+    "iteration": 64,
+    "time": 15638,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3943,
+      "nprobe": 78,
+      "m": 1,
+      "nbits": 3,
+      "M": 8,
+      "efConstruction": 105,
+      "ef": 730,
+      "reorder_k": 497
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9958,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 33745,
+      "dataNode*segment*insertBufSize": 6652909255,
+      "rootCoord*minSegmentSizeToEnableIndex": 2651
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0931983976624906,
+    "Time": 278,
+    "RPS": 111.13458605972676
+  },
+  {
+    "iteration": 65,
+    "time": 15847,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 8075,
+      "nprobe": 969,
+      "m": 16,
+      "nbits": 1,
+      "M": 24,
+      "efConstruction": 27,
+      "ef": 312,
+      "reorder_k": 482
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2365,
+      "dataCoord*segment*sealProportion": 0.51,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 1268,
+      "dataNode*segment*insertBufSize": 9997892976,
+      "rootCoord*minSegmentSizeToEnableIndex": 3256
+    },
+    "precisions": 0.7356699999999999,
+    "p95time": 0.008453611168079078,
+    "Time": 208,
+    "RPS": 1057.935369123604
+  },
+  {
+    "iteration": 66,
+    "time": 16076,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 4710,
+      "nprobe": 2778,
+      "m": 1,
+      "nbits": 1,
+      "M": 36,
+      "efConstruction": 419,
+      "ef": 855,
+      "reorder_k": 937
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8739,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 22783,
+      "dataNode*segment*insertBufSize": 1000,
+      "rootCoord*minSegmentSizeToEnableIndex": 5266
+    },
+    "precisions": 0.24878000000000003,
+    "p95time": 0.01900748829357326,
+    "Time": 227,
+    "RPS": 585.6247698297657
+  },
+  {
+    "iteration": 67,
+    "time": 16457,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 5729,
+      "nprobe": 5098,
+      "m": 128,
+      "nbits": 1,
+      "M": 48,
+      "efConstruction": 506,
+      "ef": 580,
+      "reorder_k": 276
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9888,
+      "dataCoord*segment*sealProportion": 0.89,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 56253,
+      "dataNode*segment*insertBufSize": 7745025979,
+      "rootCoord*minSegmentSizeToEnableIndex": 6224
+    },
+    "precisions": 0.99067,
+    "p95time": 0.11640832927078007,
+    "Time": 379,
+    "RPS": 107.4318200554401
+  },
+  {
+    "iteration": 68,
+    "time": 16687,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 81,
+      "nprobe": 1,
+      "m": 128,
+      "nbits": 6,
+      "M": 51,
+      "efConstruction": 495,
+      "ef": 187,
+      "reorder_k": 770
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7761,
+      "dataCoord*segment*sealProportion": 0.08,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 24586,
+      "dataNode*segment*insertBufSize": 9807540793,
+      "rootCoord*minSegmentSizeToEnableIndex": 9803
+    },
+    "precisions": 0.24861,
+    "p95time": 0.01944065953139214,
+    "Time": 229,
+    "RPS": 549.4311376895716
+  },
+  {
+    "iteration": 69,
+    "time": 16954,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 6942,
+      "nprobe": 6942,
+      "m": 8,
+      "nbits": 3,
+      "M": 28,
+      "efConstruction": 417,
+      "ef": 239,
+      "reorder_k": 174
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3831,
+      "dataCoord*segment*sealProportion": 0.31,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 45847,
+      "dataNode*segment*insertBufSize": 212835772,
+      "rootCoord*minSegmentSizeToEnableIndex": 6336
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08017382959369569,
+    "Time": 264,
+    "RPS": 174.93884045888413
+  },
+  {
+    "iteration": 70,
+    "time": 17215,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 4456,
+      "nprobe": 4188,
+      "m": 4,
+      "nbits": 3,
+      "M": 55,
+      "efConstruction": 347,
+      "ef": 117,
+      "reorder_k": 328
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6247,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 91900,
+      "dataNode*segment*insertBufSize": 9631580151,
+      "rootCoord*minSegmentSizeToEnableIndex": 2602
+    },
+    "precisions": 0.99997,
+    "p95time": 0.07528426242060957,
+    "Time": 260,
+    "RPS": 183.9908441880907
+  },
+  {
+    "iteration": 71,
+    "time": 17447,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 1464,
+      "nprobe": 1346,
+      "m": 32,
+      "nbits": 1,
+      "M": 9,
+      "efConstruction": 508,
+      "ef": 404,
+      "reorder_k": 278
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8811,
+      "dataCoord*segment*sealProportion": 0.11,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 18529,
+      "dataNode*segment*insertBufSize": 2869717297,
+      "rootCoord*minSegmentSizeToEnableIndex": 4958
+    },
+    "precisions": 0.6647200000000001,
+    "p95time": 0.034130913205444806,
+    "Time": 231,
+    "RPS": 405.6712486478509
+  },
+  {
+    "iteration": 72,
+    "time": 17725,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2843,
+      "nprobe": 1051,
+      "m": 2,
+      "nbits": 1,
+      "M": 47,
+      "efConstruction": 424,
+      "ef": 816,
+      "reorder_k": 255
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9469,
+      "dataCoord*segment*sealProportion": 0.91,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 80137,
+      "dataNode*segment*insertBufSize": 2544291765,
+      "rootCoord*minSegmentSizeToEnableIndex": 8767
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09394342524465173,
+    "Time": 277,
+    "RPS": 110.76328249319701
+  },
+  {
+    "iteration": 73,
+    "time": 17940,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 9673,
+      "nprobe": 1934,
+      "m": 4,
+      "nbits": 2,
+      "M": 15,
+      "efConstruction": 57,
+      "ef": 978,
+      "reorder_k": 477
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9636,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 33015,
+      "dataNode*segment*insertBufSize": 8231367645,
+      "rootCoord*minSegmentSizeToEnableIndex": 9675
+    },
+    "precisions": 0.033639999999999996,
+    "p95time": 0.024083861312828934,
+    "Time": 214,
+    "RPS": 850.0412733310695
+  },
+  {
+    "iteration": 74,
+    "time": 18219,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3299,
+      "nprobe": 3266,
+      "m": 64,
+      "nbits": 8,
+      "M": 60,
+      "efConstruction": 201,
+      "ef": 422,
+      "reorder_k": 343
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2294,
+      "dataCoord*segment*sealProportion": 0.76,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 95687,
+      "dataNode*segment*insertBufSize": 6536015022,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09419096275232733,
+    "Time": 277,
+    "RPS": 110.2595842291825
+  },
+  {
+    "iteration": 75,
+    "time": 18496,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6921,
+      "nprobe": 69,
+      "m": 16,
+      "nbits": 2,
+      "M": 5,
+      "efConstruction": 383,
+      "ef": 879,
+      "reorder_k": 263
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 445,
+      "dataCoord*segment*sealProportion": 0.21,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 68546,
+      "dataNode*segment*insertBufSize": 5088827505,
+      "rootCoord*minSegmentSizeToEnableIndex": 504
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09367898157797754,
+    "Time": 276,
+    "RPS": 111.4153882954312
+  },
+  {
+    "iteration": 76,
+    "time": 18776,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7856,
+      "nprobe": 1099,
+      "m": 128,
+      "nbits": 1,
+      "M": 37,
+      "efConstruction": 397,
+      "ef": 684,
+      "reorder_k": 484
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6251,
+      "dataCoord*segment*sealProportion": 0.84,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 57892,
+      "dataNode*segment*insertBufSize": 9780480287,
+      "rootCoord*minSegmentSizeToEnableIndex": 7809
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0932509413920343,
+    "Time": 279,
+    "RPS": 111.40472300365624
+  },
+  {
+    "iteration": 77,
+    "time": 18996,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 1727,
+      "nprobe": 1709,
+      "m": 128,
+      "nbits": 2,
+      "M": 43,
+      "efConstruction": 472,
+      "ef": 950,
+      "reorder_k": 127
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9704,
+      "dataCoord*segment*sealProportion": 0.41,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 89357,
+      "dataNode*segment*insertBufSize": 3544199218,
+      "rootCoord*minSegmentSizeToEnableIndex": 7576
+    },
+    "precisions": 0.97625,
+    "p95time": 0.03212289905641224,
+    "Time": 219,
+    "RPS": 495.3404287096761
+  },
+  {
+    "iteration": 78,
+    "time": 19258,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 5859,
+      "nprobe": 3163,
+      "m": 32,
+      "nbits": 1,
+      "M": 58,
+      "efConstruction": 396,
+      "ef": 566,
+      "reorder_k": 708
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8317,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 55894,
+      "dataNode*segment*insertBufSize": 8344491289,
+      "rootCoord*minSegmentSizeToEnableIndex": 5392
+    },
+    "precisions": 0.99997,
+    "p95time": 0.07933321346063166,
+    "Time": 261,
+    "RPS": 178.58531252838625
+  },
+  {
+    "iteration": 79,
+    "time": 19487,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 9139,
+      "nprobe": 8133,
+      "m": 16,
+      "nbits": 4,
+      "M": 59,
+      "efConstruction": 391,
+      "ef": 992,
+      "reorder_k": 997
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3624,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 10140,
+      "dataNode*segment*insertBufSize": 3739110857,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.24635,
+    "p95time": 0.018622774560935796,
+    "Time": 228,
+    "RPS": 584.4922692629503
+  },
+  {
+    "iteration": 80,
+    "time": 19778,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 9061,
+      "nprobe": 8698,
+      "m": 2,
+      "nbits": 2,
+      "M": 42,
+      "efConstruction": 313,
+      "ef": 106,
+      "reorder_k": 450
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7572,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100000,
+      "dataNode*segment*insertBufSize": 8028316694,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.81006,
+    "p95time": 0.04350330147426575,
+    "Time": 289,
+    "RPS": 278.14056051806205
+  },
+  {
+    "iteration": 81,
+    "time": 20058,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 749,
+      "nprobe": 119,
+      "m": 4,
+      "nbits": 2,
+      "M": 52,
+      "efConstruction": 27,
+      "ef": 982,
+      "reorder_k": 609
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4401,
+      "dataCoord*segment*sealProportion": 0.82,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 4063768682,
+      "rootCoord*minSegmentSizeToEnableIndex": 2074
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0933258760953322,
+    "Time": 278,
+    "RPS": 111.00284142730796
+  },
+  {
+    "iteration": 82,
+    "time": 20337,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7073,
+      "nprobe": 3819,
+      "m": 64,
+      "nbits": 2,
+      "M": 54,
+      "efConstruction": 421,
+      "ef": 402,
+      "reorder_k": 319
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8733,
+      "dataCoord*segment*sealProportion": 0.68,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100000,
+      "dataNode*segment*insertBufSize": 2977539705,
+      "rootCoord*minSegmentSizeToEnableIndex": 5691
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09266754810232668,
+    "Time": 278,
+    "RPS": 110.90713690937682
+  },
+  {
+    "iteration": 83,
+    "time": 20618,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7812,
+      "nprobe": 2499,
+      "m": 64,
+      "nbits": 1,
+      "M": 14,
+      "efConstruction": 208,
+      "ef": 1000,
+      "reorder_k": 163
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7540,
+      "dataCoord*segment*sealProportion": 0.08,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 34920,
+      "dataNode*segment*insertBufSize": 8507121354,
+      "rootCoord*minSegmentSizeToEnableIndex": 7946
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09351961265783756,
+    "Time": 281,
+    "RPS": 111.21866988099012
+  },
+  {
+    "iteration": 84,
+    "time": 20856,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 8923,
+      "nprobe": 3836,
+      "m": 8,
+      "nbits": 1,
+      "M": 24,
+      "efConstruction": 110,
+      "ef": 238,
+      "reorder_k": 119
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5281,
+      "dataCoord*segment*sealProportion": 0.65,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 81372,
+      "dataNode*segment*insertBufSize": 9424757418,
+      "rootCoord*minSegmentSizeToEnableIndex": 835
+    },
+    "precisions": 0.9751299999999999,
+    "p95time": 0.04861403855029493,
+    "Time": 237,
+    "RPS": 319.5576855775945
+  },
+  {
+    "iteration": 85,
+    "time": 21133,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 10000,
+      "nprobe": 2700,
+      "m": 64,
+      "nbits": 2,
+      "M": 35,
+      "efConstruction": 220,
+      "ef": 277,
+      "reorder_k": 446
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8070,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 32843,
+      "dataNode*segment*insertBufSize": 8254647429,
+      "rootCoord*minSegmentSizeToEnableIndex": 507
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09356604521162808,
+    "Time": 276,
+    "RPS": 111.1779470693744
+  },
+  {
+    "iteration": 86,
+    "time": 21413,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1218,
+      "nprobe": 1010,
+      "m": 4,
+      "nbits": 8,
+      "M": 40,
+      "efConstruction": 14,
+      "ef": 100,
+      "reorder_k": 640
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2408,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 98680,
+      "dataNode*segment*insertBufSize": 5532060712,
+      "rootCoord*minSegmentSizeToEnableIndex": 2639
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09468556707724927,
+    "Time": 279,
+    "RPS": 109.75258188449406
+  },
+  {
+    "iteration": 87,
+    "time": 21679,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 8129,
+      "nprobe": 6665,
+      "m": 128,
+      "nbits": 9,
+      "M": 9,
+      "efConstruction": 316,
+      "ef": 439,
+      "reorder_k": 843
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2852,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 51622,
+      "dataNode*segment*insertBufSize": 8812753080,
+      "rootCoord*minSegmentSizeToEnableIndex": 1402
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08302536108531047,
+    "Time": 265,
+    "RPS": 172.75742653167552
+  },
+  {
+    "iteration": 88,
+    "time": 21946,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9809,
+      "nprobe": 9122,
+      "m": 32,
+      "nbits": 9,
+      "M": 45,
+      "efConstruction": 415,
+      "ef": 666,
+      "reorder_k": 156
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3128,
+      "dataCoord*segment*sealProportion": 0.7,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 34941,
+      "dataNode*segment*insertBufSize": 1000,
+      "rootCoord*minSegmentSizeToEnableIndex": 1911
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08439991914201526,
+    "Time": 266,
+    "RPS": 167.63165910714983
+  },
+  {
+    "iteration": 89,
+    "time": 22225,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4941,
+      "nprobe": 1976,
+      "m": 64,
+      "nbits": 2,
+      "M": 12,
+      "efConstruction": 240,
+      "ef": 848,
+      "reorder_k": 322
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2752,
+      "dataCoord*segment*sealProportion": 0.6,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 4930,
+      "dataNode*segment*insertBufSize": 172388102,
+      "rootCoord*minSegmentSizeToEnableIndex": 1399
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0944493419257924,
+    "Time": 278,
+    "RPS": 110.08223542237465
+  },
+  {
+    "iteration": 90,
+    "time": 22504,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4350,
+      "nprobe": 1870,
+      "m": 32,
+      "nbits": 5,
+      "M": 9,
+      "efConstruction": 495,
+      "ef": 795,
+      "reorder_k": 274
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6337,
+      "dataCoord*segment*sealProportion": 0.05,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100000,
+      "dataNode*segment*insertBufSize": 8092082333,
+      "rootCoord*minSegmentSizeToEnableIndex": 4664
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09560591578483582,
+    "Time": 278,
+    "RPS": 109.94022034760823
+  },
+  {
+    "iteration": 91,
+    "time": 22781,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6976,
+      "nprobe": 348,
+      "m": 16,
+      "nbits": 3,
+      "M": 30,
+      "efConstruction": 291,
+      "ef": 180,
+      "reorder_k": 342
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5849,
+      "dataCoord*segment*sealProportion": 0.18,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 92311,
+      "dataNode*segment*insertBufSize": 6281752362,
+      "rootCoord*minSegmentSizeToEnableIndex": 3332
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09277025873307139,
+    "Time": 276,
+    "RPS": 111.88054633259762
+  },
+  {
+    "iteration": 92,
+    "time": 22979,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 238,
+      "nprobe": 178,
+      "m": 1,
+      "nbits": 1,
+      "M": 44,
+      "efConstruction": 325,
+      "ef": 817,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 865,
+      "dataCoord*segment*sealProportion": 0.88,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 99119,
+      "dataNode*segment*insertBufSize": 1301928734,
+      "rootCoord*minSegmentSizeToEnableIndex": 3508
+    },
+    "precisions": 0.026430000000000002,
+    "p95time": 0.006170260603539645,
+    "Time": 197,
+    "RPS": 1553.4288860786005
+  },
+  {
+    "iteration": 93,
+    "time": 23242,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 1949,
+      "nprobe": 1949,
+      "m": 128,
+      "nbits": 3,
+      "M": 30,
+      "efConstruction": 242,
+      "ef": 807,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9635,
+      "dataCoord*segment*sealProportion": 0.25,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 95050,
+      "dataNode*segment*insertBufSize": 7654578920,
+      "rootCoord*minSegmentSizeToEnableIndex": 6718
+    },
+    "precisions": 0.21361999999999998,
+    "p95time": 0.08833209748845547,
+    "Time": 262,
+    "RPS": 176.72781087054926
+  },
+  {
+    "iteration": 94,
+    "time": 23473,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 5911,
+      "nprobe": 5733,
+      "m": 2,
+      "nbits": 1,
+      "M": 57,
+      "efConstruction": 471,
+      "ef": 303,
+      "reorder_k": 321
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2172,
+      "dataCoord*segment*sealProportion": 0.35,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 82884,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 7135
+    },
+    "precisions": 0.9747400000000002,
+    "p95time": 0.04467264250852167,
+    "Time": 230,
+    "RPS": 364.9921908356517
+  },
+  {
+    "iteration": 95,
+    "time": 23738,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9398,
+      "nprobe": 9398,
+      "m": 8,
+      "nbits": 4,
+      "M": 15,
+      "efConstruction": 259,
+      "ef": 300,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6814,
+      "dataCoord*segment*sealProportion": 0.49,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 74343,
+      "dataNode*segment*insertBufSize": 2455857405,
+      "rootCoord*minSegmentSizeToEnableIndex": 8448
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0863531181821599,
+    "Time": 264,
+    "RPS": 168.4374904229248
+  },
+  {
+    "iteration": 96,
+    "time": 24016,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6011,
+      "nprobe": 5229,
+      "m": 32,
+      "nbits": 2,
+      "M": 50,
+      "efConstruction": 12,
+      "ef": 901,
+      "reorder_k": 828
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5572,
+      "dataCoord*segment*sealProportion": 0.05,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 44254,
+      "dataNode*segment*insertBufSize": 43798530,
+      "rootCoord*minSegmentSizeToEnableIndex": 9261
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09300114561337977,
+    "Time": 277,
+    "RPS": 110.84945846774865
+  },
+  {
+    "iteration": 97,
+    "time": 24295,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 450,
+      "nprobe": 238,
+      "m": 16,
+      "nbits": 6,
+      "M": 64,
+      "efConstruction": 346,
+      "ef": 972,
+      "reorder_k": 677
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9977,
+      "dataCoord*segment*sealProportion": 0.73,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 2398,
+      "dataNode*segment*insertBufSize": 2032312504,
+      "rootCoord*minSegmentSizeToEnableIndex": 502
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09377446863800286,
+    "Time": 278,
+    "RPS": 111.34453379419412
+  },
+  {
+    "iteration": 98,
+    "time": 24574,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8020,
+      "nprobe": 5052,
+      "m": 4,
+      "nbits": 2,
+      "M": 49,
+      "efConstruction": 220,
+      "ef": 267,
+      "reorder_k": 872
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7053,
+      "dataCoord*segment*sealProportion": 0.82,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 45757,
+      "dataNode*segment*insertBufSize": 9850933566,
+      "rootCoord*minSegmentSizeToEnableIndex": 4861
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09488359896931797,
+    "Time": 278,
+    "RPS": 110.21708964731891
+  },
+  {
+    "iteration": 99,
+    "time": 24805,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 8516,
+      "nprobe": 1447,
+      "m": 2,
+      "nbits": 8,
+      "M": 50,
+      "efConstruction": 400,
+      "ef": 100,
+      "reorder_k": 552
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.7,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 31799,
+      "dataNode*segment*insertBufSize": 2186380214,
+      "rootCoord*minSegmentSizeToEnableIndex": 763
+    },
+    "precisions": 0.96546,
+    "p95time": 0.04336848831735551,
+    "Time": 230,
+    "RPS": 369.96233151541725
+  },
+  {
+    "iteration": 100,
+    "time": 25014,
+    "index_conf": {
+      "index_type": "SCANN",
+      "nlist": 9836,
+      "nprobe": 6295,
+      "m": 128,
+      "nbits": 5,
+      "M": 14,
+      "efConstruction": 124,
+      "ef": 110,
+      "reorder_k": 493
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.32,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 93490,
+      "dataNode*segment*insertBufSize": 9207096775,
+      "rootCoord*minSegmentSizeToEnableIndex": 9924
+    },
+    "precisions": 0.9966400000000002,
+    "p95time": 0.005365472775883972,
+    "Time": 208,
+    "RPS": 1347.139212004538
+  },
+  {
+    "iteration": 101,
+    "time": 25293,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7999,
+      "nprobe": 3839,
+      "m": 16,
+      "nbits": 3,
+      "M": 16,
+      "efConstruction": 444,
+      "ef": 761,
+      "reorder_k": 741
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 459,
+      "dataCoord*segment*sealProportion": 0.91,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 47311,
+      "dataNode*segment*insertBufSize": 6090890560,
+      "rootCoord*minSegmentSizeToEnableIndex": 3129
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09504312928766011,
+    "Time": 278,
+    "RPS": 109.74619162608386
+  },
+  {
+    "iteration": 102,
+    "time": 25571,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7100,
+      "nprobe": 1562,
+      "m": 16,
+      "nbits": 8,
+      "M": 43,
+      "efConstruction": 118,
+      "ef": 937,
+      "reorder_k": 150
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 759,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 6994,
+      "dataNode*segment*insertBufSize": 2393623606,
+      "rootCoord*minSegmentSizeToEnableIndex": 126
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09331118022091686,
+    "Time": 277,
+    "RPS": 111.49952177383753
+  },
+  {
+    "iteration": 103,
+    "time": 25838,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 10000,
+      "nprobe": 7400,
+      "m": 2,
+      "nbits": 1,
+      "M": 4,
+      "efConstruction": 179,
+      "ef": 107,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7368,
+      "dataCoord*segment*sealProportion": 0.77,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 55717,
+      "dataNode*segment*insertBufSize": 9061587546,
+      "rootCoord*minSegmentSizeToEnableIndex": 5650
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08396703647449612,
+    "Time": 266,
+    "RPS": 167.66144858982022
+  },
+  {
+    "iteration": 104,
+    "time": 26117,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9722,
+      "nprobe": 4472,
+      "m": 8,
+      "nbits": 2,
+      "M": 39,
+      "efConstruction": 32,
+      "ef": 100,
+      "reorder_k": 204
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8967,
+      "dataCoord*segment*sealProportion": 0.78,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 4119,
+      "dataNode*segment*insertBufSize": 1304406946,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09376973549369721,
+    "Time": 278,
+    "RPS": 109.59422920998244
+  },
+  {
+    "iteration": 105,
+    "time": 26318,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 1629,
+      "nprobe": 32,
+      "m": 2,
+      "nbits": 4,
+      "M": 38,
+      "efConstruction": 232,
+      "ef": 401,
+      "reorder_k": 410
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6991,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100000,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.056929999999999994,
+    "p95time": 0.0035723560024052844,
+    "Time": 200,
+    "RPS": 2624.512358545102
+  },
+  {
+    "iteration": 106,
+    "time": 26597,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4219,
+      "nprobe": 2700,
+      "m": 8,
+      "nbits": 7,
+      "M": 5,
+      "efConstruction": 422,
+      "ef": 216,
+      "reorder_k": 885
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1329,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 50280,
+      "dataNode*segment*insertBufSize": 8520811348,
+      "rootCoord*minSegmentSizeToEnableIndex": 9794
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09182192678563296,
+    "Time": 278,
+    "RPS": 110.10640758017249
+  },
+  {
+    "iteration": 107,
+    "time": 26875,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 793,
+      "nprobe": 420,
+      "m": 16,
+      "nbits": 2,
+      "M": 53,
+      "efConstruction": 512,
+      "ef": 407,
+      "reorder_k": 640
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9094,
+      "dataCoord*segment*sealProportion": 0.68,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 29322,
+      "dataNode*segment*insertBufSize": 1592739320,
+      "rootCoord*minSegmentSizeToEnableIndex": 9062
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09365316405892371,
+    "Time": 277,
+    "RPS": 111.36995362704734
+  },
+  {
+    "iteration": 108,
+    "time": 27153,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7682,
+      "nprobe": 5146,
+      "m": 8,
+      "nbits": 9,
+      "M": 6,
+      "efConstruction": 360,
+      "ef": 140,
+      "reorder_k": 182
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1570,
+      "dataCoord*segment*sealProportion": 0.89,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 60264,
+      "dataNode*segment*insertBufSize": 9159128153,
+      "rootCoord*minSegmentSizeToEnableIndex": 9988
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09347619323525577,
+    "Time": 277,
+    "RPS": 110.6921088286776
+  },
+  {
+    "iteration": 109,
+    "time": 27433,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7790,
+      "nprobe": 5530,
+      "m": 32,
+      "nbits": 4,
+      "M": 39,
+      "efConstruction": 512,
+      "ef": 684,
+      "reorder_k": 351
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 279,
+      "dataCoord*segment*sealProportion": 0.88,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 10087,
+      "dataNode*segment*insertBufSize": 6821127255,
+      "rootCoord*minSegmentSizeToEnableIndex": 7344
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09485243747476488,
+    "Time": 278,
+    "RPS": 109.27734431355455
+  },
+  {
+    "iteration": 110,
+    "time": 27712,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2068,
+      "nprobe": 1426,
+      "m": 16,
+      "nbits": 5,
+      "M": 42,
+      "efConstruction": 400,
+      "ef": 851,
+      "reorder_k": 229
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1908,
+      "dataCoord*segment*sealProportion": 0.96,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 6710,
+      "dataNode*segment*insertBufSize": 2825918617,
+      "rootCoord*minSegmentSizeToEnableIndex": 9935
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09396892345976084,
+    "Time": 279,
+    "RPS": 110.62036922476359
+  },
+  {
+    "iteration": 111,
+    "time": 27964,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 3737,
+      "nprobe": 1121,
+      "m": 16,
+      "nbits": 3,
+      "M": 43,
+      "efConstruction": 445,
+      "ef": 287,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 440,
+      "dataCoord*segment*sealProportion": 0.79,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 65303,
+      "dataNode*segment*insertBufSize": 1490567581,
+      "rootCoord*minSegmentSizeToEnableIndex": 2186
+    },
+    "precisions": 0.9644,
+    "p95time": 0.055882283556275066,
+    "Time": 250,
+    "RPS": 232.84710734173262
+  },
+  {
+    "iteration": 112,
+    "time": 28240,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4480,
+      "nprobe": 1747,
+      "m": 128,
+      "nbits": 5,
+      "M": 54,
+      "efConstruction": 350,
+      "ef": 923,
+      "reorder_k": 214
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1267,
+      "dataCoord*segment*sealProportion": 0.19,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 30044,
+      "dataNode*segment*insertBufSize": 1166996870,
+      "rootCoord*minSegmentSizeToEnableIndex": 3711
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09226541696116328,
+    "Time": 276,
+    "RPS": 111.89322472537275
+  },
+  {
+    "iteration": 113,
+    "time": 28520,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6585,
+      "nprobe": 4675,
+      "m": 64,
+      "nbits": 7,
+      "M": 61,
+      "efConstruction": 8,
+      "ef": 942,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6916,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 97093,
+      "dataNode*segment*insertBufSize": 3311671687,
+      "rootCoord*minSegmentSizeToEnableIndex": 5300
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09482179025653749,
+    "Time": 278,
+    "RPS": 110.00001338860183
+  },
+  {
+    "iteration": 114,
+    "time": 28780,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 5855,
+      "nprobe": 3571,
+      "m": 128,
+      "nbits": 2,
+      "M": 4,
+      "efConstruction": 156,
+      "ef": 940,
+      "reorder_k": 177
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5395,
+      "dataCoord*segment*sealProportion": 0.26,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 7347,
+      "dataNode*segment*insertBufSize": 295928439,
+      "rootCoord*minSegmentSizeToEnableIndex": 4534
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0782968149287626,
+    "Time": 259,
+    "RPS": 179.45001760397227
+  },
+  {
+    "iteration": 115,
+    "time": 29005,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9395,
+      "nprobe": 187,
+      "m": 128,
+      "nbits": 8,
+      "M": 28,
+      "efConstruction": 49,
+      "ef": 106,
+      "reorder_k": 288
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8333,
+      "dataCoord*segment*sealProportion": 0.13,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 67453,
+      "dataNode*segment*insertBufSize": 7980779611,
+      "rootCoord*minSegmentSizeToEnableIndex": 6759
+    },
+    "precisions": 0.57863,
+    "p95time": 0.027685926761478182,
+    "Time": 224,
+    "RPS": 528.4410462689598
+  },
+  {
+    "iteration": 116,
+    "time": 29264,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 4618,
+      "nprobe": 1616,
+      "m": 1,
+      "nbits": 8,
+      "M": 61,
+      "efConstruction": 368,
+      "ef": 324,
+      "reorder_k": 254
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1779,
+      "dataCoord*segment*sealProportion": 0.9,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 1682,
+      "dataNode*segment*insertBufSize": 5588273847,
+      "rootCoord*minSegmentSizeToEnableIndex": 7427
+    },
+    "precisions": 0.9925900000000002,
+    "p95time": 0.07277192329056557,
+    "Time": 257,
+    "RPS": 193.4769290553179
+  },
+  {
+    "iteration": 117,
+    "time": 29542,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2016,
+      "nprobe": 181,
+      "m": 16,
+      "nbits": 2,
+      "M": 60,
+      "efConstruction": 305,
+      "ef": 514,
+      "reorder_k": 439
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 386,
+      "dataCoord*segment*sealProportion": 0.26,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 1851119915,
+      "rootCoord*minSegmentSizeToEnableIndex": 1217
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09312038738280534,
+    "Time": 277,
+    "RPS": 110.91748056250125
+  },
+  {
+    "iteration": 118,
+    "time": 29778,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2510,
+      "nprobe": 602,
+      "m": 8,
+      "nbits": 5,
+      "M": 4,
+      "efConstruction": 167,
+      "ef": 886,
+      "reorder_k": 444
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 357,
+      "dataCoord*segment*sealProportion": 0.87,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 7667361135,
+      "rootCoord*minSegmentSizeToEnableIndex": 988
+    },
+    "precisions": 0.87856,
+    "p95time": 0.042123681725934135,
+    "Time": 235,
+    "RPS": 314.5817986983702
+  },
+  {
+    "iteration": 119,
+    "time": 30056,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3419,
+      "nprobe": 1880,
+      "m": 1,
+      "nbits": 1,
+      "M": 56,
+      "efConstruction": 12,
+      "ef": 541,
+      "reorder_k": 836
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.08,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 19241,
+      "dataNode*segment*insertBufSize": 5081471696,
+      "rootCoord*minSegmentSizeToEnableIndex": 781
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0939399232622236,
+    "Time": 277,
+    "RPS": 111.39793800041798
+  },
+  {
+    "iteration": 120,
+    "time": 30334,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6077,
+      "nprobe": 3160,
+      "m": 128,
+      "nbits": 3,
+      "M": 26,
+      "efConstruction": 123,
+      "ef": 688,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 300,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 10551,
+      "dataNode*segment*insertBufSize": 3091506158,
+      "rootCoord*minSegmentSizeToEnableIndex": 4454
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09467481044121086,
+    "Time": 277,
+    "RPS": 110.6781594361175
+  },
+  {
+    "iteration": 121,
+    "time": 30565,
+    "index_conf": {
+      "index_type": "AUTOINDEX",
+      "nlist": 5096,
+      "nprobe": 4535,
+      "m": 1,
+      "nbits": 8,
+      "M": 63,
+      "efConstruction": 352,
+      "ef": 261,
+      "reorder_k": 207
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8029,
+      "dataCoord*segment*sealProportion": 0.79,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 54073,
+      "dataNode*segment*insertBufSize": 8708707819,
+      "rootCoord*minSegmentSizeToEnableIndex": 8426
+    },
+    "precisions": 0.24946000000000004,
+    "p95time": 0.019872459606267493,
+    "Time": 230,
+    "RPS": 564.7459825012593
+  },
+  {
+    "iteration": 122,
+    "time": 30844,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8145,
+      "nprobe": 3502,
+      "m": 32,
+      "nbits": 8,
+      "M": 44,
+      "efConstruction": 52,
+      "ef": 779,
+      "reorder_k": 728
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.02,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 56250,
+      "dataNode*segment*insertBufSize": 1350446910,
+      "rootCoord*minSegmentSizeToEnableIndex": 7356
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09420847191940993,
+    "Time": 278,
+    "RPS": 110.63064736382324
+  },
+  {
+    "iteration": 123,
+    "time": 31124,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1309,
+      "nprobe": 1295,
+      "m": 64,
+      "nbits": 10,
+      "M": 34,
+      "efConstruction": 87,
+      "ef": 1000,
+      "reorder_k": 340
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5719,
+      "dataCoord*segment*sealProportion": 0.86,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 45468,
+      "dataNode*segment*insertBufSize": 5108117354,
+      "rootCoord*minSegmentSizeToEnableIndex": 4167
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09326048644725232,
+    "Time": 279,
+    "RPS": 111.60568151770755
+  },
+  {
+    "iteration": 124,
+    "time": 31404,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1790,
+      "nprobe": 17,
+      "m": 16,
+      "nbits": 10,
+      "M": 28,
+      "efConstruction": 128,
+      "ef": 811,
+      "reorder_k": 228
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3570,
+      "dataCoord*segment*sealProportion": 0.59,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 22556,
+      "dataNode*segment*insertBufSize": 2243458510,
+      "rootCoord*minSegmentSizeToEnableIndex": 2002
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09426273168064654,
+    "Time": 278,
+    "RPS": 109.95703199558142
+  },
+  {
+    "iteration": 125,
+    "time": 31637,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9995,
+      "nprobe": 299,
+      "m": 2,
+      "nbits": 5,
+      "M": 19,
+      "efConstruction": 26,
+      "ef": 830,
+      "reorder_k": 366
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1686,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 77992,
+      "dataNode*segment*insertBufSize": 269232098,
+      "rootCoord*minSegmentSizeToEnableIndex": 1318
+    },
+    "precisions": 0.69921,
+    "p95time": 0.03704128053504972,
+    "Time": 233,
+    "RPS": 380.08804326297246
+  },
+  {
+    "iteration": 126,
+    "time": 31896,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1335,
+      "nprobe": 1214,
+      "m": 64,
+      "nbits": 1,
+      "M": 36,
+      "efConstruction": 411,
+      "ef": 847,
+      "reorder_k": 798
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2996,
+      "dataCoord*segment*sealProportion": 0.26,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 927,
+      "dataNode*segment*insertBufSize": 3170793441,
+      "rootCoord*minSegmentSizeToEnableIndex": 5271
+    },
+    "precisions": 0.99976,
+    "p95time": 0.07567502243909983,
+    "Time": 257,
+    "RPS": 164.88748209836183
+  },
+  {
+    "iteration": 127,
+    "time": 32175,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3470,
+      "nprobe": 1665,
+      "m": 16,
+      "nbits": 8,
+      "M": 22,
+      "efConstruction": 304,
+      "ef": 418,
+      "reorder_k": 517
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 952,
+      "dataCoord*segment*sealProportion": 0.15,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 23017,
+      "dataNode*segment*insertBufSize": 2886498685,
+      "rootCoord*minSegmentSizeToEnableIndex": 8966
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09311036074068398,
+    "Time": 278,
+    "RPS": 110.32787524964552
+  },
+  {
+    "iteration": 128,
+    "time": 32411,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9214,
+      "nprobe": 8292,
+      "m": 64,
+      "nbits": 2,
+      "M": 60,
+      "efConstruction": 351,
+      "ef": 342,
+      "reorder_k": 892
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6469,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 95957,
+      "dataNode*segment*insertBufSize": 7198194545,
+      "rootCoord*minSegmentSizeToEnableIndex": 6641
+    },
+    "precisions": 0.97539,
+    "p95time": 0.046515141031704836,
+    "Time": 235,
+    "RPS": 325.36465308894174
+  },
+  {
+    "iteration": 129,
+    "time": 32692,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8493,
+      "nprobe": 8493,
+      "m": 1,
+      "nbits": 7,
+      "M": 26,
+      "efConstruction": 454,
+      "ef": 684,
+      "reorder_k": 279
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8620,
+      "dataCoord*segment*sealProportion": 0.31,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 34079,
+      "dataNode*segment*insertBufSize": 6652456856,
+      "rootCoord*minSegmentSizeToEnableIndex": 9546
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09475019678939132,
+    "Time": 279,
+    "RPS": 108.52058564030115
+  },
+  {
+    "iteration": 130,
+    "time": 32921,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1951,
+      "nprobe": 448,
+      "m": 2,
+      "nbits": 3,
+      "M": 46,
+      "efConstruction": 58,
+      "ef": 785,
+      "reorder_k": 261
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2169,
+      "dataCoord*segment*sealProportion": 0.69,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 20676,
+      "dataNode*segment*insertBufSize": 1000,
+      "rootCoord*minSegmentSizeToEnableIndex": 9426
+    },
+    "precisions": 0.8362799999999999,
+    "p95time": 0.03661189582198857,
+    "Time": 228,
+    "RPS": 359.7107559836887
+  },
+  {
+    "iteration": 131,
+    "time": 33199,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1,
+      "nprobe": 1,
+      "m": 32,
+      "nbits": 2,
+      "M": 49,
+      "efConstruction": 475,
+      "ef": 776,
+      "reorder_k": 907
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1184,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 61682,
+      "dataNode*segment*insertBufSize": 9790761491,
+      "rootCoord*minSegmentSizeToEnableIndex": 4176
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09282259123865515,
+    "Time": 277,
+    "RPS": 111.66299731251661
+  },
+  {
+    "iteration": 132,
+    "time": 33477,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9612,
+      "nprobe": 1153,
+      "m": 8,
+      "nbits": 8,
+      "M": 59,
+      "efConstruction": 269,
+      "ef": 840,
+      "reorder_k": 140
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8438,
+      "dataCoord*segment*sealProportion": 0.91,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 14059,
+      "dataNode*segment*insertBufSize": 1035831498,
+      "rootCoord*minSegmentSizeToEnableIndex": 7076
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09252117616124451,
+    "Time": 277,
+    "RPS": 111.50713013951889
+  },
+  {
+    "iteration": 133,
+    "time": 33744,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9681,
+      "nprobe": 7938,
+      "m": 64,
+      "nbits": 9,
+      "M": 7,
+      "efConstruction": 144,
+      "ef": 580,
+      "reorder_k": 874
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7800,
+      "dataCoord*segment*sealProportion": 0.62,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 98008,
+      "dataNode*segment*insertBufSize": 6320379744,
+      "rootCoord*minSegmentSizeToEnableIndex": 2751
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08541885518934576,
+    "Time": 266,
+    "RPS": 167.75132646475458
+  },
+  {
+    "iteration": 134,
+    "time": 33964,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 8666,
+      "nprobe": 8579,
+      "m": 32,
+      "nbits": 1,
+      "M": 30,
+      "efConstruction": 16,
+      "ef": 985,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3778,
+      "dataCoord*segment*sealProportion": 0.7,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 6815,
+      "dataNode*segment*insertBufSize": 9829481857,
+      "rootCoord*minSegmentSizeToEnableIndex": 9736
+    },
+    "precisions": 0.86835,
+    "p95time": 0.03265034332871436,
+    "Time": 219,
+    "RPS": 453.0686027004984
+  },
+  {
+    "iteration": 135,
+    "time": 34186,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 6299,
+      "nprobe": 62,
+      "m": 1,
+      "nbits": 9,
+      "M": 41,
+      "efConstruction": 449,
+      "ef": 127,
+      "reorder_k": 154
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9782,
+      "dataCoord*segment*sealProportion": 0.22,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 10397,
+      "dataNode*segment*insertBufSize": 2437054228,
+      "rootCoord*minSegmentSizeToEnableIndex": 3953
+    },
+    "precisions": 0.36843000000000004,
+    "p95time": 0.018215329758822906,
+    "Time": 221,
+    "RPS": 765.086087747714
+  },
+  {
+    "iteration": 136,
+    "time": 34465,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8826,
+      "nprobe": 6531,
+      "m": 2,
+      "nbits": 3,
+      "M": 61,
+      "efConstruction": 228,
+      "ef": 483,
+      "reorder_k": 507
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8771,
+      "dataCoord*segment*sealProportion": 0.97,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 47998,
+      "dataNode*segment*insertBufSize": 9665517244,
+      "rootCoord*minSegmentSizeToEnableIndex": 378
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09525669589638709,
+    "Time": 277,
+    "RPS": 110.4975471268717
+  },
+  {
+    "iteration": 137,
+    "time": 34674,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 606,
+      "nprobe": 72,
+      "m": 128,
+      "nbits": 5,
+      "M": 57,
+      "efConstruction": 308,
+      "ef": 685,
+      "reorder_k": 896
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1432,
+      "dataCoord*segment*sealProportion": 0.58,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 12973,
+      "dataNode*segment*insertBufSize": 5402730567,
+      "rootCoord*minSegmentSizeToEnableIndex": 9833
+    },
+    "precisions": 0.4589,
+    "p95time": 0.01442972554359585,
+    "Time": 208,
+    "RPS": 766.692342875231
+  },
+  {
+    "iteration": 138,
+    "time": 34951,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8813,
+      "nprobe": 705,
+      "m": 16,
+      "nbits": 8,
+      "M": 59,
+      "efConstruction": 307,
+      "ef": 379,
+      "reorder_k": 107
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1123,
+      "dataCoord*segment*sealProportion": 0.79,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 48203,
+      "dataNode*segment*insertBufSize": 6805880985,
+      "rootCoord*minSegmentSizeToEnableIndex": 2936
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09258897453546525,
+    "Time": 277,
+    "RPS": 110.99518388468712
+  },
+  {
+    "iteration": 139,
+    "time": 35229,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7066,
+      "nprobe": 1695,
+      "m": 8,
+      "nbits": 1,
+      "M": 45,
+      "efConstruction": 512,
+      "ef": 702,
+      "reorder_k": 252
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8580,
+      "dataCoord*segment*sealProportion": 0.6,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 473,
+      "dataNode*segment*insertBufSize": 4453904289,
+      "rootCoord*minSegmentSizeToEnableIndex": 7729
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0923135599354282,
+    "Time": 277,
+    "RPS": 112.22355693162483
+  },
+  {
+    "iteration": 140,
+    "time": 35537,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 10000,
+      "nprobe": 7800,
+      "m": 1,
+      "nbits": 1,
+      "M": 33,
+      "efConstruction": 421,
+      "ef": 543,
+      "reorder_k": 239
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1751,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 5135,
+      "dataNode*segment*insertBufSize": 9735783364,
+      "rootCoord*minSegmentSizeToEnableIndex": 2808
+    },
+    "precisions": 0.9690900000000001,
+    "p95time": 0.08728408131282776,
+    "Time": 307,
+    "RPS": 179.90601158912017
+  },
+  {
+    "iteration": 141,
+    "time": 35815,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4840,
+      "nprobe": 4210,
+      "m": 64,
+      "nbits": 3,
+      "M": 29,
+      "efConstruction": 370,
+      "ef": 183,
+      "reorder_k": 350
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.79,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 96551,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 2115
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09308404759503901,
+    "Time": 277,
+    "RPS": 111.29108301785601
+  },
+  {
+    "iteration": 142,
+    "time": 36049,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 7746,
+      "nprobe": 6584,
+      "m": 64,
+      "nbits": 2,
+      "M": 61,
+      "efConstruction": 500,
+      "ef": 823,
+      "reorder_k": 404
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6655,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 30854,
+      "dataNode*segment*insertBufSize": 8974411590,
+      "rootCoord*minSegmentSizeToEnableIndex": 9375
+    },
+    "precisions": 0.9747,
+    "p95time": 0.04830264151096343,
+    "Time": 233,
+    "RPS": 331.32358562270133
+  },
+  {
+    "iteration": 143,
+    "time": 36328,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6833,
+      "nprobe": 2254,
+      "m": 16,
+      "nbits": 1,
+      "M": 57,
+      "efConstruction": 322,
+      "ef": 855,
+      "reorder_k": 497
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.76,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 98520,
+      "dataNode*segment*insertBufSize": 6034551659,
+      "rootCoord*minSegmentSizeToEnableIndex": 6297
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09433580115437508,
+    "Time": 278,
+    "RPS": 109.76844222445806
+  },
+  {
+    "iteration": 144,
+    "time": 36606,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1029,
+      "nprobe": 895,
+      "m": 64,
+      "nbits": 5,
+      "M": 60,
+      "efConstruction": 108,
+      "ef": 957,
+      "reorder_k": 972
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9032,
+      "dataCoord*segment*sealProportion": 0.47,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 44093,
+      "dataNode*segment*insertBufSize": 1000,
+      "rootCoord*minSegmentSizeToEnableIndex": 9789
+    },
+    "precisions": 0.99997,
+    "p95time": 0.094216425367631,
+    "Time": 278,
+    "RPS": 110.5281026195244
+  },
+  {
+    "iteration": 145,
+    "time": 36868,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 3107,
+      "nprobe": 2703,
+      "m": 8,
+      "nbits": 7,
+      "M": 52,
+      "efConstruction": 266,
+      "ef": 895,
+      "reorder_k": 406
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1953,
+      "dataCoord*segment*sealProportion": 0.75,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 71416,
+      "dataNode*segment*insertBufSize": 2400529399,
+      "rootCoord*minSegmentSizeToEnableIndex": 203
+    },
+    "precisions": 0.9999100000000001,
+    "p95time": 0.07089040486607699,
+    "Time": 261,
+    "RPS": 181.01960851882598
+  },
+  {
+    "iteration": 146,
+    "time": 37147,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 10000,
+      "nprobe": 800,
+      "m": 128,
+      "nbits": 2,
+      "M": 54,
+      "efConstruction": 200,
+      "ef": 322,
+      "reorder_k": 175
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4089,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 38503,
+      "dataNode*segment*insertBufSize": 254492840,
+      "rootCoord*minSegmentSizeToEnableIndex": 6506
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09466662227641791,
+    "Time": 277,
+    "RPS": 110.8681590649418
+  },
+  {
+    "iteration": 147,
+    "time": 37426,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9313,
+      "nprobe": 7171,
+      "m": 1,
+      "nbits": 5,
+      "M": 6,
+      "efConstruction": 16,
+      "ef": 425,
+      "reorder_k": 809
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9444,
+      "dataCoord*segment*sealProportion": 0.64,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 65956,
+      "dataNode*segment*insertBufSize": 1000,
+      "rootCoord*minSegmentSizeToEnableIndex": 990
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09606100914534181,
+    "Time": 278,
+    "RPS": 109.89367593942268
+  },
+  {
+    "iteration": 148,
+    "time": 37704,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1,
+      "nprobe": 1,
+      "m": 1,
+      "nbits": 4,
+      "M": 39,
+      "efConstruction": 452,
+      "ef": 522,
+      "reorder_k": 522
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3515,
+      "dataCoord*segment*sealProportion": 0.9,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 32430,
+      "dataNode*segment*insertBufSize": 7616986274,
+      "rootCoord*minSegmentSizeToEnableIndex": 7853
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0951034546131268,
+    "Time": 277,
+    "RPS": 110.64710017768874
+  },
+  {
+    "iteration": 149,
+    "time": 37983,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7707,
+      "nprobe": 4161,
+      "m": 1,
+      "nbits": 6,
+      "M": 52,
+      "efConstruction": 372,
+      "ef": 386,
+      "reorder_k": 375
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5131,
+      "dataCoord*segment*sealProportion": 0.09,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 90203,
+      "dataNode*segment*insertBufSize": 1579896755,
+      "rootCoord*minSegmentSizeToEnableIndex": 7900
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09294773954898118,
+    "Time": 278,
+    "RPS": 111.14037415022992
+  },
+  {
+    "iteration": 150,
+    "time": 38262,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6904,
+      "nprobe": 6696,
+      "m": 32,
+      "nbits": 4,
+      "M": 59,
+      "efConstruction": 66,
+      "ef": 529,
+      "reorder_k": 688
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2757,
+      "dataCoord*segment*sealProportion": 0.12,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 30869,
+      "dataNode*segment*insertBufSize": 4674976106,
+      "rootCoord*minSegmentSizeToEnableIndex": 4077
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09382980992086232,
+    "Time": 278,
+    "RPS": 111.0767456336341
+  },
+  {
+    "iteration": 151,
+    "time": 38539,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9556,
+      "nprobe": 4682,
+      "m": 128,
+      "nbits": 8,
+      "M": 57,
+      "efConstruction": 237,
+      "ef": 524,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 998,
+      "dataCoord*segment*sealProportion": 0.17,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 48631,
+      "dataNode*segment*insertBufSize": 9136461701,
+      "rootCoord*minSegmentSizeToEnableIndex": 8676
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09270852908957748,
+    "Time": 277,
+    "RPS": 111.92557313881878
+  },
+  {
+    "iteration": 152,
+    "time": 38817,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6019,
+      "nprobe": 4213,
+      "m": 64,
+      "nbits": 7,
+      "M": 40,
+      "efConstruction": 353,
+      "ef": 671,
+      "reorder_k": 435
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3385,
+      "dataCoord*segment*sealProportion": 0.54,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 80776,
+      "dataNode*segment*insertBufSize": 9941911703,
+      "rootCoord*minSegmentSizeToEnableIndex": 1677
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09374508839100598,
+    "Time": 277,
+    "RPS": 110.17916437255174
+  },
+  {
+    "iteration": 153,
+    "time": 39056,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 3,
+      "nprobe": 2,
+      "m": 2,
+      "nbits": 9,
+      "M": 18,
+      "efConstruction": 405,
+      "ef": 398,
+      "reorder_k": 298
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 913,
+      "dataCoord*segment*sealProportion": 0.31,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 98275,
+      "dataNode*segment*insertBufSize": 1349385053,
+      "rootCoord*minSegmentSizeToEnableIndex": 3545
+    },
+    "precisions": 0.79289,
+    "p95time": 0.05132072365377098,
+    "Time": 238,
+    "RPS": 215.61312417385292
+  },
+  {
+    "iteration": 154,
+    "time": 39296,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 9223,
+      "nprobe": 8946,
+      "m": 128,
+      "nbits": 9,
+      "M": 5,
+      "efConstruction": 159,
+      "ef": 856,
+      "reorder_k": 269
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 104,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 22120,
+      "dataNode*segment*insertBufSize": 5848376570,
+      "rootCoord*minSegmentSizeToEnableIndex": 6865
+    },
+    "precisions": 0.97472,
+    "p95time": 0.04931870580185204,
+    "Time": 239,
+    "RPS": 307.9664782524334
+  },
+  {
+    "iteration": 155,
+    "time": 39574,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8790,
+      "nprobe": 4482,
+      "m": 128,
+      "nbits": 1,
+      "M": 53,
+      "efConstruction": 415,
+      "ef": 930,
+      "reorder_k": 114
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3582,
+      "dataCoord*segment*sealProportion": 0.69,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 9213,
+      "dataNode*segment*insertBufSize": 2260682909,
+      "rootCoord*minSegmentSizeToEnableIndex": 565
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09436281963717193,
+    "Time": 277,
+    "RPS": 110.6256885935605
+  },
+  {
+    "iteration": 156,
+    "time": 39853,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 7762,
+      "nprobe": 4812,
+      "m": 1,
+      "nbits": 4,
+      "M": 43,
+      "efConstruction": 306,
+      "ef": 682,
+      "reorder_k": 943
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9808,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 90193,
+      "dataNode*segment*insertBufSize": 9980428816,
+      "rootCoord*minSegmentSizeToEnableIndex": 9676
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09294460401870308,
+    "Time": 277,
+    "RPS": 111.22270927847472
+  },
+  {
+    "iteration": 157,
+    "time": 40096,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 843,
+      "nprobe": 556,
+      "m": 2,
+      "nbits": 4,
+      "M": 13,
+      "efConstruction": 8,
+      "ef": 379,
+      "reorder_k": 101
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8205,
+      "dataCoord*segment*sealProportion": 0.31,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 6780,
+      "dataNode*segment*insertBufSize": 3707664642,
+      "rootCoord*minSegmentSizeToEnableIndex": 3898
+    },
+    "precisions": 0.9494400000000002,
+    "p95time": 0.05262523577548562,
+    "Time": 242,
+    "RPS": 212.99861312169736
+  },
+  {
+    "iteration": 158,
+    "time": 40374,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5208,
+      "nprobe": 364,
+      "m": 16,
+      "nbits": 1,
+      "M": 38,
+      "efConstruction": 501,
+      "ef": 323,
+      "reorder_k": 262
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9997,
+      "dataCoord*segment*sealProportion": 0.8,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 70789,
+      "dataNode*segment*insertBufSize": 8919104445,
+      "rootCoord*minSegmentSizeToEnableIndex": 182
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09300816091708838,
+    "Time": 277,
+    "RPS": 110.5492129350668
+  },
+  {
+    "iteration": 159,
+    "time": 40651,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5610,
+      "nprobe": 5441,
+      "m": 4,
+      "nbits": 1,
+      "M": 53,
+      "efConstruction": 370,
+      "ef": 326,
+      "reorder_k": 855
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5485,
+      "dataCoord*segment*sealProportion": 0.63,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 96927,
+      "dataNode*segment*insertBufSize": 7591157200,
+      "rootCoord*minSegmentSizeToEnableIndex": 865
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09396508755162358,
+    "Time": 276,
+    "RPS": 110.64554493324827
+  },
+  {
+    "iteration": 160,
+    "time": 40928,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9943,
+      "nprobe": 5369,
+      "m": 4,
+      "nbits": 2,
+      "M": 37,
+      "efConstruction": 49,
+      "ef": 384,
+      "reorder_k": 887
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2894,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 874,
+      "dataNode*segment*insertBufSize": 3019906682,
+      "rootCoord*minSegmentSizeToEnableIndex": 6817
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09305152606684715,
+    "Time": 276,
+    "RPS": 111.70459130786374
+  },
+  {
+    "iteration": 161,
+    "time": 41206,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9599,
+      "nprobe": 9119,
+      "m": 2,
+      "nbits": 2,
+      "M": 40,
+      "efConstruction": 75,
+      "ef": 480,
+      "reorder_k": 180
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6521,
+      "dataCoord*segment*sealProportion": 0.46,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 49600,
+      "dataNode*segment*insertBufSize": 62773709,
+      "rootCoord*minSegmentSizeToEnableIndex": 8161
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09325015710201114,
+    "Time": 277,
+    "RPS": 111.05907121063595
+  },
+  {
+    "iteration": 162,
+    "time": 41485,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4426,
+      "nprobe": 3585,
+      "m": 32,
+      "nbits": 3,
+      "M": 11,
+      "efConstruction": 34,
+      "ef": 134,
+      "reorder_k": 579
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7414,
+      "dataCoord*segment*sealProportion": 0.9,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 16215,
+      "dataNode*segment*insertBufSize": 1752181877,
+      "rootCoord*minSegmentSizeToEnableIndex": 1558
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0938142128754407,
+    "Time": 277,
+    "RPS": 110.78522316512824
+  },
+  {
+    "iteration": 163,
+    "time": 41765,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9189,
+      "nprobe": 275,
+      "m": 32,
+      "nbits": 8,
+      "M": 53,
+      "efConstruction": 190,
+      "ef": 979,
+      "reorder_k": 840
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9800,
+      "dataCoord*segment*sealProportion": 0.27,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 50530,
+      "dataNode*segment*insertBufSize": 9167370283,
+      "rootCoord*minSegmentSizeToEnableIndex": 561
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09351601416710763,
+    "Time": 280,
+    "RPS": 111.26849617338537
+  },
+  {
+    "iteration": 164,
+    "time": 42043,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 10000,
+      "nprobe": 4700,
+      "m": 8,
+      "nbits": 6,
+      "M": 46,
+      "efConstruction": 93,
+      "ef": 845,
+      "reorder_k": 283
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.59,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 8896,
+      "dataNode*segment*insertBufSize": 1020409096,
+      "rootCoord*minSegmentSizeToEnableIndex": 4488
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09387810004409403,
+    "Time": 277,
+    "RPS": 111.1933753765169
+  },
+  {
+    "iteration": 165,
+    "time": 42308,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2777,
+      "nprobe": 2582,
+      "m": 128,
+      "nbits": 6,
+      "M": 50,
+      "efConstruction": 63,
+      "ef": 875,
+      "reorder_k": 772
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7866,
+      "dataCoord*segment*sealProportion": 0.88,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 80653,
+      "dataNode*segment*insertBufSize": 7648344275,
+      "rootCoord*minSegmentSizeToEnableIndex": 9357
+    },
+    "precisions": 0.99997,
+    "p95time": 0.06862600021995602,
+    "Time": 263,
+    "RPS": 174.39048262637286
+  },
+  {
+    "iteration": 166,
+    "time": 42586,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3892,
+      "nprobe": 2919,
+      "m": 1,
+      "nbits": 2,
+      "M": 7,
+      "efConstruction": 58,
+      "ef": 809,
+      "reorder_k": 513
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7280,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 41928,
+      "dataNode*segment*insertBufSize": 7161291525,
+      "rootCoord*minSegmentSizeToEnableIndex": 4979
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09283006547484546,
+    "Time": 278,
+    "RPS": 111.01209259344637
+  },
+  {
+    "iteration": 167,
+    "time": 42865,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9066,
+      "nprobe": 5258,
+      "m": 4,
+      "nbits": 5,
+      "M": 57,
+      "efConstruction": 496,
+      "ef": 602,
+      "reorder_k": 500
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7806,
+      "dataCoord*segment*sealProportion": 0.15,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 43056,
+      "dataNode*segment*insertBufSize": 8183615389,
+      "rootCoord*minSegmentSizeToEnableIndex": 8000
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09443544826935976,
+    "Time": 277,
+    "RPS": 110.5335742013058
+  },
+  {
+    "iteration": 168,
+    "time": 43100,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 10000,
+      "nprobe": 7900,
+      "m": 16,
+      "nbits": 7,
+      "M": 45,
+      "efConstruction": 416,
+      "ef": 956,
+      "reorder_k": 415
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 339,
+      "dataCoord*segment*sealProportion": 0.75,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 10343,
+      "dataNode*segment*insertBufSize": 9401018679,
+      "rootCoord*minSegmentSizeToEnableIndex": 9200
+    },
+    "precisions": 0.97491,
+    "p95time": 0.04654532966669647,
+    "Time": 234,
+    "RPS": 323.557109089411
+  },
+  {
+    "iteration": 169,
+    "time": 43353,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1,
+      "nprobe": 1,
+      "m": 1,
+      "nbits": 1,
+      "M": 7,
+      "efConstruction": 230,
+      "ef": 871,
+      "reorder_k": 924
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.32,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 16646,
+      "dataNode*segment*insertBufSize": 8028613526,
+      "rootCoord*minSegmentSizeToEnableIndex": 1010
+    },
+    "precisions": 0.99997,
+    "p95time": 0.06744175523053854,
+    "Time": 251,
+    "RPS": 165.8662167995044
+  },
+  {
+    "iteration": 170,
+    "time": 43585,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 5682,
+      "nprobe": 4431,
+      "m": 4,
+      "nbits": 2,
+      "M": 43,
+      "efConstruction": 239,
+      "ef": 351,
+      "reorder_k": 324
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2852,
+      "dataCoord*segment*sealProportion": 0.98,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 4074,
+      "dataNode*segment*insertBufSize": 260150344,
+      "rootCoord*minSegmentSizeToEnableIndex": 9527
+    },
+    "precisions": 0.97416,
+    "p95time": 0.044728497345931824,
+    "Time": 231,
+    "RPS": 368.10813640750143
+  },
+  {
+    "iteration": 171,
+    "time": 43849,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 6433,
+      "nprobe": 4181,
+      "m": 16,
+      "nbits": 3,
+      "M": 59,
+      "efConstruction": 31,
+      "ef": 954,
+      "reorder_k": 217
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6944,
+      "dataCoord*segment*sealProportion": 0.52,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 49805,
+      "dataNode*segment*insertBufSize": 9128321496,
+      "rootCoord*minSegmentSizeToEnableIndex": 622
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08179985026363283,
+    "Time": 263,
+    "RPS": 174.6639209306792
+  },
+  {
+    "iteration": 172,
+    "time": 44128,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8397,
+      "nprobe": 7221,
+      "m": 1,
+      "nbits": 5,
+      "M": 4,
+      "efConstruction": 28,
+      "ef": 601,
+      "reorder_k": 619
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 377,
+      "dataCoord*segment*sealProportion": 0.73,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 98170,
+      "dataNode*segment*insertBufSize": 8103938292,
+      "rootCoord*minSegmentSizeToEnableIndex": 9388
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09427530360408126,
+    "Time": 278,
+    "RPS": 110.99770947664366
+  },
+  {
+    "iteration": 173,
+    "time": 44364,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 10000,
+      "nprobe": 5500,
+      "m": 128,
+      "nbits": 5,
+      "M": 60,
+      "efConstruction": 416,
+      "ef": 146,
+      "reorder_k": 294
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8920,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 36283,
+      "dataNode*segment*insertBufSize": 2937540224,
+      "rootCoord*minSegmentSizeToEnableIndex": 683
+    },
+    "precisions": 0.9745600000000002,
+    "p95time": 0.04681198848411441,
+    "Time": 235,
+    "RPS": 315.17013967736136
+  },
+  {
+    "iteration": 174,
+    "time": 44586,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1724,
+      "nprobe": 275,
+      "m": 32,
+      "nbits": 7,
+      "M": 48,
+      "efConstruction": 64,
+      "ef": 995,
+      "reorder_k": 323
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9834,
+      "dataCoord*segment*sealProportion": 0.14,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 325361563,
+      "rootCoord*minSegmentSizeToEnableIndex": 416
+    },
+    "precisions": 0.7213,
+    "p95time": 0.02763218723703174,
+    "Time": 220,
+    "RPS": 470.71587627285345
+  },
+  {
+    "iteration": 175,
+    "time": 44864,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3248,
+      "nprobe": 3085,
+      "m": 2,
+      "nbits": 6,
+      "M": 59,
+      "efConstruction": 33,
+      "ef": 424,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.84,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 52833,
+      "dataNode*segment*insertBufSize": 2849538743,
+      "rootCoord*minSegmentSizeToEnableIndex": 7287
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09407961124088615,
+    "Time": 277,
+    "RPS": 111.11957026355496
+  },
+  {
+    "iteration": 176,
+    "time": 45142,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8449,
+      "nprobe": 1858,
+      "m": 2,
+      "nbits": 9,
+      "M": 32,
+      "efConstruction": 8,
+      "ef": 191,
+      "reorder_k": 598
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 181,
+      "dataCoord*segment*sealProportion": 0.6,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 28863,
+      "dataNode*segment*insertBufSize": 1961853413,
+      "rootCoord*minSegmentSizeToEnableIndex": 7172
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09327100545633585,
+    "Time": 277,
+    "RPS": 111.01424253446102
+  },
+  {
+    "iteration": 177,
+    "time": 45421,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8938,
+      "nprobe": 4290,
+      "m": 128,
+      "nbits": 5,
+      "M": 10,
+      "efConstruction": 394,
+      "ef": 243,
+      "reorder_k": 875
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7357,
+      "dataCoord*segment*sealProportion": 0.33,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 55584,
+      "dataNode*segment*insertBufSize": 8907088746,
+      "rootCoord*minSegmentSizeToEnableIndex": 3354
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09318194715306162,
+    "Time": 278,
+    "RPS": 111.26513819009352
+  },
+  {
+    "iteration": 178,
+    "time": 45638,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 2301,
+      "nprobe": 552,
+      "m": 1,
+      "nbits": 1,
+      "M": 59,
+      "efConstruction": 199,
+      "ef": 305,
+      "reorder_k": 545
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5777,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 11055,
+      "dataNode*segment*insertBufSize": 9715771107,
+      "rootCoord*minSegmentSizeToEnableIndex": 1440
+    },
+    "precisions": 0.8583,
+    "p95time": 0.02487982418388128,
+    "Time": 216,
+    "RPS": 678.2475228282983
+  },
+  {
+    "iteration": 179,
+    "time": 45916,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3225,
+      "nprobe": 2064,
+      "m": 2,
+      "nbits": 3,
+      "M": 44,
+      "efConstruction": 218,
+      "ef": 830,
+      "reorder_k": 391
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 941,
+      "dataCoord*segment*sealProportion": 0.13,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 5991737647,
+      "rootCoord*minSegmentSizeToEnableIndex": 8979
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09395255476702004,
+    "Time": 277,
+    "RPS": 109.46817447536868
+  },
+  {
+    "iteration": 180,
+    "time": 46194,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8584,
+      "nprobe": 4721,
+      "m": 8,
+      "nbits": 9,
+      "M": 27,
+      "efConstruction": 424,
+      "ef": 628,
+      "reorder_k": 144
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1759,
+      "dataCoord*segment*sealProportion": 0.89,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 82607,
+      "dataNode*segment*insertBufSize": 8089542579,
+      "rootCoord*minSegmentSizeToEnableIndex": 8640
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09425408756360411,
+    "Time": 277,
+    "RPS": 110.61942484100739
+  },
+  {
+    "iteration": 181,
+    "time": 46454,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2589,
+      "nprobe": 2485,
+      "m": 2,
+      "nbits": 4,
+      "M": 28,
+      "efConstruction": 419,
+      "ef": 853,
+      "reorder_k": 472
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2273,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 98612,
+      "dataNode*segment*insertBufSize": 9639077818,
+      "rootCoord*minSegmentSizeToEnableIndex": 1345
+    },
+    "precisions": 0.99997,
+    "p95time": 0.06817620890215038,
+    "Time": 259,
+    "RPS": 185.77046593695556
+  },
+  {
+    "iteration": 182,
+    "time": 46733,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5172,
+      "nprobe": 2172,
+      "m": 1,
+      "nbits": 3,
+      "M": 6,
+      "efConstruction": 194,
+      "ef": 308,
+      "reorder_k": 766
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.29,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 21156,
+      "dataNode*segment*insertBufSize": 2140465866,
+      "rootCoord*minSegmentSizeToEnableIndex": 473
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09500762440729886,
+    "Time": 278,
+    "RPS": 110.3828850519133
+  },
+  {
+    "iteration": 183,
+    "time": 47011,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3827,
+      "nprobe": 3559,
+      "m": 16,
+      "nbits": 4,
+      "M": 23,
+      "efConstruction": 488,
+      "ef": 808,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 631,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 78316,
+      "dataNode*segment*insertBufSize": 3328006338,
+      "rootCoord*minSegmentSizeToEnableIndex": 9226
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09411018139217048,
+    "Time": 277,
+    "RPS": 110.1387334795357
+  },
+  {
+    "iteration": 184,
+    "time": 47291,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 732,
+      "nprobe": 585,
+      "m": 4,
+      "nbits": 1,
+      "M": 50,
+      "efConstruction": 330,
+      "ef": 278,
+      "reorder_k": 219
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9126,
+      "dataCoord*segment*sealProportion": 0.92,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 35071,
+      "dataNode*segment*insertBufSize": 8253342683,
+      "rootCoord*minSegmentSizeToEnableIndex": 2250
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09294909918680787,
+    "Time": 278,
+    "RPS": 109.61634878067444
+  },
+  {
+    "iteration": 185,
+    "time": 47569,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5733,
+      "nprobe": 5389,
+      "m": 8,
+      "nbits": 8,
+      "M": 4,
+      "efConstruction": 338,
+      "ef": 857,
+      "reorder_k": 426
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4058,
+      "dataCoord*segment*sealProportion": 0.25,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 74105,
+      "dataNode*segment*insertBufSize": 6177541995,
+      "rootCoord*minSegmentSizeToEnableIndex": 7873
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09289801695849746,
+    "Time": 278,
+    "RPS": 110.71585490138284
+  },
+  {
+    "iteration": 186,
+    "time": 47848,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2653,
+      "nprobe": 2440,
+      "m": 32,
+      "nbits": 8,
+      "M": 8,
+      "efConstruction": 8,
+      "ef": 322,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6018,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 91927,
+      "dataNode*segment*insertBufSize": 8821761129,
+      "rootCoord*minSegmentSizeToEnableIndex": 7770
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09421638366766273,
+    "Time": 278,
+    "RPS": 110.0740763213766
+  },
+  {
+    "iteration": 187,
+    "time": 48126,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8616,
+      "nprobe": 3963,
+      "m": 8,
+      "nbits": 1,
+      "M": 61,
+      "efConstruction": 238,
+      "ef": 775,
+      "reorder_k": 200
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6099,
+      "dataCoord*segment*sealProportion": 0.37,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 24477,
+      "dataNode*segment*insertBufSize": 248862790,
+      "rootCoord*minSegmentSizeToEnableIndex": 6708
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09396887281909581,
+    "Time": 277,
+    "RPS": 110.75346755667387
+  },
+  {
+    "iteration": 188,
+    "time": 48404,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1046,
+      "nprobe": 910,
+      "m": 8,
+      "nbits": 8,
+      "M": 56,
+      "efConstruction": 438,
+      "ef": 903,
+      "reorder_k": 335
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 100,
+      "dataCoord*segment*sealProportion": 0.82,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 3515,
+      "dataNode*segment*insertBufSize": 7981840573,
+      "rootCoord*minSegmentSizeToEnableIndex": 5494
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09341868623159826,
+    "Time": 276,
+    "RPS": 111.3242113304024
+  },
+  {
+    "iteration": 189,
+    "time": 48683,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2471,
+      "nprobe": 2446,
+      "m": 32,
+      "nbits": 9,
+      "M": 14,
+      "efConstruction": 429,
+      "ef": 902,
+      "reorder_k": 581
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8335,
+      "dataCoord*segment*sealProportion": 0.72,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 40644,
+      "dataNode*segment*insertBufSize": 9720891742,
+      "rootCoord*minSegmentSizeToEnableIndex": 4210
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09288813846651464,
+    "Time": 278,
+    "RPS": 110.60079769814391
+  },
+  {
+    "iteration": 190,
+    "time": 48962,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1400,
+      "nprobe": 1064,
+      "m": 128,
+      "nbits": 3,
+      "M": 61,
+      "efConstruction": 421,
+      "ef": 256,
+      "reorder_k": 847
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8008,
+      "dataCoord*segment*sealProportion": 0.77,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 88293,
+      "dataNode*segment*insertBufSize": 2044503888,
+      "rootCoord*minSegmentSizeToEnableIndex": 9215
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09397790145594627,
+    "Time": 278,
+    "RPS": 110.33622342957922
+  },
+  {
+    "iteration": 191,
+    "time": 49240,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4127,
+      "nprobe": 4003,
+      "m": 64,
+      "nbits": 4,
+      "M": 42,
+      "efConstruction": 364,
+      "ef": 748,
+      "reorder_k": 259
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3338,
+      "dataCoord*segment*sealProportion": 0.04,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 11020,
+      "dataNode*segment*insertBufSize": 8043577866,
+      "rootCoord*minSegmentSizeToEnableIndex": 1341
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09137798834126443,
+    "Time": 276,
+    "RPS": 111.60677788692907
+  },
+  {
+    "iteration": 192,
+    "time": 49505,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 7700,
+      "nprobe": 7392,
+      "m": 128,
+      "nbits": 4,
+      "M": 55,
+      "efConstruction": 229,
+      "ef": 341,
+      "reorder_k": 607
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 848,
+      "dataCoord*segment*sealProportion": 0.98,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 84622,
+      "dataNode*segment*insertBufSize": 7112424662,
+      "rootCoord*minSegmentSizeToEnableIndex": 6144
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08217971513513471,
+    "Time": 265,
+    "RPS": 173.64888181731126
+  },
+  {
+    "iteration": 193,
+    "time": 49760,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 2139,
+      "nprobe": 1753,
+      "m": 64,
+      "nbits": 9,
+      "M": 50,
+      "efConstruction": 124,
+      "ef": 669,
+      "reorder_k": 174
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 301,
+      "dataCoord*segment*sealProportion": 0.28,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 5486,
+      "dataNode*segment*insertBufSize": 6086261067,
+      "rootCoord*minSegmentSizeToEnableIndex": 5686
+    },
+    "precisions": 0.9991399999999999,
+    "p95time": 0.06781681065913288,
+    "Time": 254,
+    "RPS": 186.41296897785952
+  },
+  {
+    "iteration": 194,
+    "time": 49985,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 2660,
+      "nprobe": 2234,
+      "m": 4,
+      "nbits": 6,
+      "M": 5,
+      "efConstruction": 478,
+      "ef": 891,
+      "reorder_k": 159
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3829,
+      "dataCoord*segment*sealProportion": 0.96,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 1361,
+      "dataNode*segment*insertBufSize": 9232671337,
+      "rootCoord*minSegmentSizeToEnableIndex": 5517
+    },
+    "precisions": 0.9749599999999998,
+    "p95time": 0.03539537626784293,
+    "Time": 224,
+    "RPS": 454.3725134430642
+  },
+  {
+    "iteration": 195,
+    "time": 50219,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 8118,
+      "nprobe": 1704,
+      "m": 128,
+      "nbits": 3,
+      "M": 4,
+      "efConstruction": 414,
+      "ef": 945,
+      "reorder_k": 100
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 141,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 89151,
+      "dataNode*segment*insertBufSize": 9778360746,
+      "rootCoord*minSegmentSizeToEnableIndex": 7914
+    },
+    "precisions": 0.9712,
+    "p95time": 0.04513604922685772,
+    "Time": 233,
+    "RPS": 338.1915377768285
+  },
+  {
+    "iteration": 196,
+    "time": 50496,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4370,
+      "nprobe": 3801,
+      "m": 8,
+      "nbits": 1,
+      "M": 20,
+      "efConstruction": 148,
+      "ef": 1000,
+      "reorder_k": 257
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7850,
+      "dataCoord*segment*sealProportion": 0.99,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 78335,
+      "dataNode*segment*insertBufSize": 5043145317,
+      "rootCoord*minSegmentSizeToEnableIndex": 8074
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0945007854141295,
+    "Time": 276,
+    "RPS": 110.5121407451477
+  },
+  {
+    "iteration": 197,
+    "time": 50775,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1044,
+      "nprobe": 960,
+      "m": 8,
+      "nbits": 3,
+      "M": 57,
+      "efConstruction": 35,
+      "ef": 866,
+      "reorder_k": 231
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1427,
+      "dataCoord*segment*sealProportion": 0.35,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 67081,
+      "dataNode*segment*insertBufSize": 2615128599,
+      "rootCoord*minSegmentSizeToEnableIndex": 5337
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0933576965238899,
+    "Time": 278,
+    "RPS": 110.71137256021784
+  },
+  {
+    "iteration": 198,
+    "time": 51054,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1381,
+      "nprobe": 1298,
+      "m": 2,
+      "nbits": 4,
+      "M": 13,
+      "efConstruction": 285,
+      "ef": 256,
+      "reorder_k": 157
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9716,
+      "dataCoord*segment*sealProportion": 0.35,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 88668,
+      "dataNode*segment*insertBufSize": 1146543389,
+      "rootCoord*minSegmentSizeToEnableIndex": 9253
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09451514226384461,
+    "Time": 278,
+    "RPS": 110.80627792852943
+  },
+  {
+    "iteration": 199,
+    "time": 51332,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8827,
+      "nprobe": 5825,
+      "m": 4,
+      "nbits": 2,
+      "M": 58,
+      "efConstruction": 70,
+      "ef": 951,
+      "reorder_k": 932
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9044,
+      "dataCoord*segment*sealProportion": 0.44,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 96038,
+      "dataNode*segment*insertBufSize": 7288195762,
+      "rootCoord*minSegmentSizeToEnableIndex": 7805
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09403003382030874,
+    "Time": 277,
+    "RPS": 109.99347985888261
+  },
+  {
+    "iteration": 200,
+    "time": 51610,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8710,
+      "nprobe": 8274,
+      "m": 1,
+      "nbits": 5,
+      "M": 56,
+      "efConstruction": 372,
+      "ef": 183,
+      "reorder_k": 109
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8596,
+      "dataCoord*segment*sealProportion": 0.79,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 30436,
+      "dataNode*segment*insertBufSize": 5464997745,
+      "rootCoord*minSegmentSizeToEnableIndex": 7641
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09218970243819057,
+    "Time": 277,
+    "RPS": 111.59690672541635
+  },
+  {
+    "iteration": 201,
+    "time": 51889,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3453,
+      "nprobe": 2796,
+      "m": 4,
+      "nbits": 1,
+      "M": 33,
+      "efConstruction": 38,
+      "ef": 420,
+      "reorder_k": 160
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1069,
+      "dataCoord*segment*sealProportion": 0.58,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 64029,
+      "dataNode*segment*insertBufSize": 2526902111,
+      "rootCoord*minSegmentSizeToEnableIndex": 9986
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09425781390164047,
+    "Time": 278,
+    "RPS": 110.42987206216596
+  },
+  {
+    "iteration": 202,
+    "time": 52167,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2380,
+      "nprobe": 499,
+      "m": 64,
+      "nbits": 2,
+      "M": 62,
+      "efConstruction": 231,
+      "ef": 842,
+      "reorder_k": 119
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2644,
+      "dataCoord*segment*sealProportion": 0.09,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 85860,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 4746
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09501832246314734,
+    "Time": 277,
+    "RPS": 110.31859833612538
+  },
+  {
+    "iteration": 203,
+    "time": 52445,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6260,
+      "nprobe": 2128,
+      "m": 8,
+      "nbits": 5,
+      "M": 7,
+      "efConstruction": 470,
+      "ef": 106,
+      "reorder_k": 123
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4103,
+      "dataCoord*segment*sealProportion": 0.72,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 1124,
+      "dataNode*segment*insertBufSize": 7620048164,
+      "rootCoord*minSegmentSizeToEnableIndex": 363
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09380643067415803,
+    "Time": 277,
+    "RPS": 110.65499430807094
+  },
+  {
+    "iteration": 204,
+    "time": 52722,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9317,
+      "nprobe": 8571,
+      "m": 4,
+      "nbits": 6,
+      "M": 6,
+      "efConstruction": 322,
+      "ef": 310,
+      "reorder_k": 790
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9114,
+      "dataCoord*segment*sealProportion": 0.01,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 18112,
+      "dataNode*segment*insertBufSize": 266703707,
+      "rootCoord*minSegmentSizeToEnableIndex": 2821
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09264086843468249,
+    "Time": 276,
+    "RPS": 111.43207155570795
+  },
+  {
+    "iteration": 205,
+    "time": 53001,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9437,
+      "nprobe": 8776,
+      "m": 2,
+      "nbits": 7,
+      "M": 9,
+      "efConstruction": 27,
+      "ef": 815,
+      "reorder_k": 451
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1121,
+      "dataCoord*segment*sealProportion": 0.86,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 4058,
+      "dataNode*segment*insertBufSize": 7750306354,
+      "rootCoord*minSegmentSizeToEnableIndex": 2845
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0940912714228034,
+    "Time": 277,
+    "RPS": 110.7105089849594
+  },
+  {
+    "iteration": 206,
+    "time": 53278,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9157,
+      "nprobe": 1007,
+      "m": 64,
+      "nbits": 5,
+      "M": 64,
+      "efConstruction": 432,
+      "ef": 187,
+      "reorder_k": 486
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3875,
+      "dataCoord*segment*sealProportion": 0.37,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 15024,
+      "dataNode*segment*insertBufSize": 2661612469,
+      "rootCoord*minSegmentSizeToEnableIndex": 294
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09260768848471343,
+    "Time": 277,
+    "RPS": 111.14506879121261
+  },
+  {
+    "iteration": 207,
+    "time": 53557,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 611,
+      "nprobe": 415,
+      "m": 128,
+      "nbits": 3,
+      "M": 23,
+      "efConstruction": 84,
+      "ef": 506,
+      "reorder_k": 272
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8039,
+      "dataCoord*segment*sealProportion": 0.69,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 86633,
+      "dataNode*segment*insertBufSize": 8042311268,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09321287958882749,
+    "Time": 278,
+    "RPS": 109.61598427207726
+  },
+  {
+    "iteration": 208,
+    "time": 53838,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 10000,
+      "nprobe": 2600,
+      "m": 4,
+      "nbits": 10,
+      "M": 28,
+      "efConstruction": 218,
+      "ef": 339,
+      "reorder_k": 996
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 2698,
+      "dataCoord*segment*sealProportion": 0.22,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 80739,
+      "dataNode*segment*insertBufSize": 9214170653,
+      "rootCoord*minSegmentSizeToEnableIndex": 5689
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09447711000684648,
+    "Time": 280,
+    "RPS": 108.25371327058434
+  },
+  {
+    "iteration": 209,
+    "time": 54116,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3754,
+      "nprobe": 1726,
+      "m": 128,
+      "nbits": 8,
+      "M": 6,
+      "efConstruction": 465,
+      "ef": 850,
+      "reorder_k": 732
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5946,
+      "dataCoord*segment*sealProportion": 0.52,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 814,
+      "dataNode*segment*insertBufSize": 3469437417,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09274984812363982,
+    "Time": 277,
+    "RPS": 110.53117363263077
+  },
+  {
+    "iteration": 210,
+    "time": 54349,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 5694,
+      "nprobe": 4612,
+      "m": 1,
+      "nbits": 3,
+      "M": 51,
+      "efConstruction": 62,
+      "ef": 211,
+      "reorder_k": 858
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4679,
+      "dataCoord*segment*sealProportion": 0.87,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 34945,
+      "dataNode*segment*insertBufSize": 9667831096,
+      "rootCoord*minSegmentSizeToEnableIndex": 7321
+    },
+    "precisions": 0.9751200000000001,
+    "p95time": 0.04531147598754614,
+    "Time": 231,
+    "RPS": 367.12858671545354
+  },
+  {
+    "iteration": 211,
+    "time": 54627,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1972,
+      "nprobe": 1636,
+      "m": 32,
+      "nbits": 1,
+      "M": 46,
+      "efConstruction": 153,
+      "ef": 302,
+      "reorder_k": 843
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4802,
+      "dataCoord*segment*sealProportion": 0.64,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 355,
+      "dataNode*segment*insertBufSize": 7278312716,
+      "rootCoord*minSegmentSizeToEnableIndex": 9048
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09445586616639047,
+    "Time": 277,
+    "RPS": 110.03393949636042
+  },
+  {
+    "iteration": 212,
+    "time": 54906,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8656,
+      "nprobe": 7963,
+      "m": 32,
+      "nbits": 8,
+      "M": 17,
+      "efConstruction": 282,
+      "ef": 560,
+      "reorder_k": 515
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8615,
+      "dataCoord*segment*sealProportion": 0.17,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 96192,
+      "dataNode*segment*insertBufSize": 1485199736,
+      "rootCoord*minSegmentSizeToEnableIndex": 2048
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09350301290396601,
+    "Time": 278,
+    "RPS": 110.81170912060337
+  },
+  {
+    "iteration": 213,
+    "time": 55186,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5759,
+      "nprobe": 1266,
+      "m": 1,
+      "nbits": 5,
+      "M": 58,
+      "efConstruction": 180,
+      "ef": 213,
+      "reorder_k": 565
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 799,
+      "dataCoord*segment*sealProportion": 0.77,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 76668,
+      "dataNode*segment*insertBufSize": 5542438475,
+      "rootCoord*minSegmentSizeToEnableIndex": 2287
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09354783974122256,
+    "Time": 279,
+    "RPS": 111.55539826934195
+  },
+  {
+    "iteration": 214,
+    "time": 55464,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9106,
+      "nprobe": 6647,
+      "m": 1,
+      "nbits": 1,
+      "M": 25,
+      "efConstruction": 436,
+      "ef": 391,
+      "reorder_k": 787
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5249,
+      "dataCoord*segment*sealProportion": 0.64,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 66928,
+      "dataNode*segment*insertBufSize": 5001623534,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09345391830429435,
+    "Time": 277,
+    "RPS": 111.08370457280094
+  },
+  {
+    "iteration": 215,
+    "time": 55742,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6859,
+      "nprobe": 6241,
+      "m": 1,
+      "nbits": 6,
+      "M": 37,
+      "efConstruction": 225,
+      "ef": 747,
+      "reorder_k": 1000
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8638,
+      "dataCoord*segment*sealProportion": 0.25,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 57139,
+      "dataNode*segment*insertBufSize": 170443947,
+      "rootCoord*minSegmentSizeToEnableIndex": 5885
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09416784218046814,
+    "Time": 277,
+    "RPS": 110.8008963862506
+  },
+  {
+    "iteration": 216,
+    "time": 56007,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 4074,
+      "nprobe": 4074,
+      "m": 64,
+      "nbits": 8,
+      "M": 52,
+      "efConstruction": 369,
+      "ef": 347,
+      "reorder_k": 373
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8169,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 28882,
+      "dataNode*segment*insertBufSize": 8933513867,
+      "rootCoord*minSegmentSizeToEnableIndex": 5686
+    },
+    "precisions": 0.99997,
+    "p95time": 0.07341548472177237,
+    "Time": 264,
+    "RPS": 174.74288616728555
+  },
+  {
+    "iteration": 217,
+    "time": 56273,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 9863,
+      "nprobe": 7791,
+      "m": 128,
+      "nbits": 1,
+      "M": 34,
+      "efConstruction": 127,
+      "ef": 775,
+      "reorder_k": 215
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 586,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 44432,
+      "dataNode*segment*insertBufSize": 2951246310,
+      "rootCoord*minSegmentSizeToEnableIndex": 1861
+    },
+    "precisions": 0.07545,
+    "p95time": 0.12547052488662294,
+    "Time": 265,
+    "RPS": 190.06117570637684
+  },
+  {
+    "iteration": 218,
+    "time": 56548,
+    "index_conf": {
+      "index_type": "IVF_PQ",
+      "nlist": 9153,
+      "nprobe": 8969,
+      "m": 128,
+      "nbits": 5,
+      "M": 6,
+      "efConstruction": 271,
+      "ef": 466,
+      "reorder_k": 606
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 291,
+      "dataCoord*segment*sealProportion": 0.68,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 73726,
+      "dataNode*segment*insertBufSize": 6209018609,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.44861,
+    "p95time": 0.15734811557922496,
+    "Time": 274,
+    "RPS": 156.82395752973403
+  },
+  {
+    "iteration": 219,
+    "time": 56814,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9199,
+      "nprobe": 7819,
+      "m": 8,
+      "nbits": 1,
+      "M": 36,
+      "efConstruction": 333,
+      "ef": 844,
+      "reorder_k": 721
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1470,
+      "dataCoord*segment*sealProportion": 0.14,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 79317,
+      "dataNode*segment*insertBufSize": 9779811523,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08531508222222324,
+    "Time": 265,
+    "RPS": 168.9789399393846
+  },
+  {
+    "iteration": 220,
+    "time": 57082,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9716,
+      "nprobe": 9133,
+      "m": 128,
+      "nbits": 1,
+      "M": 40,
+      "efConstruction": 218,
+      "ef": 1000,
+      "reorder_k": 986
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 3218,
+      "dataCoord*segment*sealProportion": 0.97,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 19209,
+      "dataNode*segment*insertBufSize": 4139290442,
+      "rootCoord*minSegmentSizeToEnableIndex": 8964
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08692937118466944,
+    "Time": 267,
+    "RPS": 167.33072831304628
+  },
+  {
+    "iteration": 221,
+    "time": 57346,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 6678,
+      "nprobe": 6210,
+      "m": 8,
+      "nbits": 7,
+      "M": 54,
+      "efConstruction": 380,
+      "ef": 901,
+      "reorder_k": 183
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 529,
+      "dataCoord*segment*sealProportion": 0.95,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 51363,
+      "dataNode*segment*insertBufSize": 2117964966,
+      "rootCoord*minSegmentSizeToEnableIndex": 5770
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08008126367349176,
+    "Time": 263,
+    "RPS": 175.76141728198357
+  },
+  {
+    "iteration": 222,
+    "time": 57626,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 2828,
+      "nprobe": 1923,
+      "m": 16,
+      "nbits": 4,
+      "M": 64,
+      "efConstruction": 92,
+      "ef": 201,
+      "reorder_k": 258
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5582,
+      "dataCoord*segment*sealProportion": 0.02,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 17426,
+      "dataNode*segment*insertBufSize": 7899075956,
+      "rootCoord*minSegmentSizeToEnableIndex": 5534
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09553645446430892,
+    "Time": 279,
+    "RPS": 110.00983705202769
+  },
+  {
+    "iteration": 223,
+    "time": 57905,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9553,
+      "nprobe": 7737,
+      "m": 32,
+      "nbits": 2,
+      "M": 57,
+      "efConstruction": 131,
+      "ef": 487,
+      "reorder_k": 730
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6532,
+      "dataCoord*segment*sealProportion": 0.21,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 87119,
+      "dataNode*segment*insertBufSize": 7728680599,
+      "rootCoord*minSegmentSizeToEnableIndex": 9824
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09441871335729957,
+    "Time": 278,
+    "RPS": 110.78030932380811
+  },
+  {
+    "iteration": 224,
+    "time": 58183,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1,
+      "nprobe": 1,
+      "m": 32,
+      "nbits": 2,
+      "M": 60,
+      "efConstruction": 414,
+      "ef": 999,
+      "reorder_k": 224
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 521,
+      "dataCoord*segment*sealProportion": 0.19,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 94535,
+      "dataNode*segment*insertBufSize": 7872978065,
+      "rootCoord*minSegmentSizeToEnableIndex": 8562
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09282781586516649,
+    "Time": 277,
+    "RPS": 111.79392509281503
+  },
+  {
+    "iteration": 225,
+    "time": 58461,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5605,
+      "nprobe": 3194,
+      "m": 32,
+      "nbits": 4,
+      "M": 4,
+      "efConstruction": 343,
+      "ef": 940,
+      "reorder_k": 643
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1359,
+      "dataCoord*segment*sealProportion": 0.24,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 99848,
+      "dataNode*segment*insertBufSize": 7221924344,
+      "rootCoord*minSegmentSizeToEnableIndex": 455
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09112194322515278,
+    "Time": 277,
+    "RPS": 111.77559752742124
+  },
+  {
+    "iteration": 226,
+    "time": 58700,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 994,
+      "nprobe": 616,
+      "m": 128,
+      "nbits": 2,
+      "M": 14,
+      "efConstruction": 228,
+      "ef": 535,
+      "reorder_k": 304
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1603,
+      "dataCoord*segment*sealProportion": 0.81,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 40574,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 4892
+    },
+    "precisions": 0.9698700000000001,
+    "p95time": 0.05404836609959602,
+    "Time": 238,
+    "RPS": 234.59094248565103
+  },
+  {
+    "iteration": 227,
+    "time": 58896,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 8802,
+      "nprobe": 7217,
+      "m": 4,
+      "nbits": 1,
+      "M": 8,
+      "efConstruction": 33,
+      "ef": 235,
+      "reorder_k": 564
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5579,
+      "dataCoord*segment*sealProportion": 0.04,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 9159,
+      "dataNode*segment*insertBufSize": 1323438409,
+      "rootCoord*minSegmentSizeToEnableIndex": 7914
+    },
+    "precisions": 0.20026000000000002,
+    "p95time": 0.0030910894041880966,
+    "Time": 195,
+    "RPS": 2397.365231274046
+  },
+  {
+    "iteration": 228,
+    "time": 59175,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 10000,
+      "nprobe": 6800,
+      "m": 64,
+      "nbits": 3,
+      "M": 39,
+      "efConstruction": 465,
+      "ef": 110,
+      "reorder_k": 599
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5774,
+      "dataCoord*segment*sealProportion": 0.87,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 50830,
+      "dataNode*segment*insertBufSize": 1400879736,
+      "rootCoord*minSegmentSizeToEnableIndex": 5460
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09429287773091345,
+    "Time": 278,
+    "RPS": 110.6812708917622
+  },
+  {
+    "iteration": 229,
+    "time": 59455,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5047,
+      "nprobe": 4340,
+      "m": 2,
+      "nbits": 8,
+      "M": 56,
+      "efConstruction": 188,
+      "ef": 168,
+      "reorder_k": 637
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4948,
+      "dataCoord*segment*sealProportion": 0.07,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 7711,
+      "dataNode*segment*insertBufSize": 8563761258,
+      "rootCoord*minSegmentSizeToEnableIndex": 8423
+    },
+    "precisions": 0.99997,
+    "p95time": 0.0955251834122464,
+    "Time": 279,
+    "RPS": 109.10466866998001
+  },
+  {
+    "iteration": 230,
+    "time": 59732,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4237,
+      "nprobe": 4067,
+      "m": 128,
+      "nbits": 2,
+      "M": 43,
+      "efConstruction": 75,
+      "ef": 590,
+      "reorder_k": 525
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6020,
+      "dataCoord*segment*sealProportion": 0.83,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 65010,
+      "dataNode*segment*insertBufSize": 6094288620,
+      "rootCoord*minSegmentSizeToEnableIndex": 8597
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09442156059667468,
+    "Time": 276,
+    "RPS": 111.00089977894575
+  },
+  {
+    "iteration": 231,
+    "time": 60020,
+    "index_conf": {
+      "index_type": "HNSW",
+      "nlist": 9262,
+      "nprobe": 8613,
+      "m": 128,
+      "nbits": 9,
+      "M": 59,
+      "efConstruction": 203,
+      "ef": 132,
+      "reorder_k": 975
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4739,
+      "dataCoord*segment*sealProportion": 0.82,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 9172009908,
+      "rootCoord*minSegmentSizeToEnableIndex": 10000
+    },
+    "precisions": 0.8767,
+    "p95time": 0.053387185349129125,
+    "Time": 287,
+    "RPS": 228.05324208456588
+  },
+  {
+    "iteration": 232,
+    "time": 60300,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5848,
+      "nprobe": 526,
+      "m": 128,
+      "nbits": 1,
+      "M": 39,
+      "efConstruction": 13,
+      "ef": 933,
+      "reorder_k": 957
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1576,
+      "dataCoord*segment*sealProportion": 0.98,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 89874,
+      "dataNode*segment*insertBufSize": 9180816493,
+      "rootCoord*minSegmentSizeToEnableIndex": 7742
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09348105355165899,
+    "Time": 277,
+    "RPS": 110.5294339549944
+  },
+  {
+    "iteration": 233,
+    "time": 60536,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 1084,
+      "nprobe": 563,
+      "m": 2,
+      "nbits": 8,
+      "M": 49,
+      "efConstruction": 467,
+      "ef": 305,
+      "reorder_k": 779
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4401,
+      "dataCoord*segment*sealProportion": 0.93,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 79405,
+      "dataNode*segment*insertBufSize": 8309106995,
+      "rootCoord*minSegmentSizeToEnableIndex": 9988
+    },
+    "precisions": 0.9475299999999999,
+    "p95time": 0.04859253426548093,
+    "Time": 235,
+    "RPS": 264.41102407700475
+  },
+  {
+    "iteration": 234,
+    "time": 60813,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9039,
+      "nprobe": 9039,
+      "m": 64,
+      "nbits": 5,
+      "M": 5,
+      "efConstruction": 10,
+      "ef": 990,
+      "reorder_k": 861
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 7235,
+      "dataCoord*segment*sealProportion": 0.52,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 54640,
+      "dataNode*segment*insertBufSize": 8010739883,
+      "rootCoord*minSegmentSizeToEnableIndex": 1874
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09306878398638217,
+    "Time": 276,
+    "RPS": 111.58860609677417
+  },
+  {
+    "iteration": 235,
+    "time": 61081,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9896,
+      "nprobe": 4354,
+      "m": 1,
+      "nbits": 6,
+      "M": 64,
+      "efConstruction": 286,
+      "ef": 690,
+      "reorder_k": 219
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 140,
+      "dataCoord*segment*sealProportion": 0.28,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 100,
+      "dataNode*segment*insertBufSize": 8830883619,
+      "rootCoord*minSegmentSizeToEnableIndex": 5450
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08552961463574318,
+    "Time": 267,
+    "RPS": 167.70705335210192
+  },
+  {
+    "iteration": 236,
+    "time": 61309,
+    "index_conf": {
+      "index_type": "IVF_SQ8",
+      "nlist": 3678,
+      "nprobe": 2684,
+      "m": 4,
+      "nbits": 6,
+      "M": 39,
+      "efConstruction": 466,
+      "ef": 277,
+      "reorder_k": 823
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 1195,
+      "dataCoord*segment*sealProportion": 0.75,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 22174,
+      "dataNode*segment*insertBufSize": 8958349928,
+      "rootCoord*minSegmentSizeToEnableIndex": 2651
+    },
+    "precisions": 0.9751900000000001,
+    "p95time": 0.04108686097897587,
+    "Time": 228,
+    "RPS": 421.10239822478536
+  },
+  {
+    "iteration": 237,
+    "time": 61585,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 3509,
+      "nprobe": 2035,
+      "m": 128,
+      "nbits": 4,
+      "M": 29,
+      "efConstruction": 462,
+      "ef": 100,
+      "reorder_k": 481
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5078,
+      "dataCoord*segment*sealProportion": 0.38,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 72069,
+      "dataNode*segment*insertBufSize": 3406241003,
+      "rootCoord*minSegmentSizeToEnableIndex": 7008
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09334663006011396,
+    "Time": 275,
+    "RPS": 111.21088568634075
+  },
+  {
+    "iteration": 238,
+    "time": 61865,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9010,
+      "nprobe": 8739,
+      "m": 16,
+      "nbits": 6,
+      "M": 58,
+      "efConstruction": 388,
+      "ef": 751,
+      "reorder_k": 503
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.32,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 70877,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 5208
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09275557952933013,
+    "Time": 278,
+    "RPS": 111.04033033791185
+  },
+  {
+    "iteration": 239,
+    "time": 62143,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 9513,
+      "nprobe": 6468,
+      "m": 128,
+      "nbits": 1,
+      "M": 29,
+      "efConstruction": 54,
+      "ef": 174,
+      "reorder_k": 539
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 708,
+      "dataCoord*segment*sealProportion": 0.39,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 97531,
+      "dataNode*segment*insertBufSize": 9719383148,
+      "rootCoord*minSegmentSizeToEnableIndex": 2527
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09310424264986068,
+    "Time": 277,
+    "RPS": 111.59840755530972
+  },
+  {
+    "iteration": 240,
+    "time": 62420,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 992,
+      "nprobe": 773,
+      "m": 2,
+      "nbits": 9,
+      "M": 7,
+      "efConstruction": 22,
+      "ef": 232,
+      "reorder_k": 852
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9370,
+      "dataCoord*segment*sealProportion": 0.69,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 88496,
+      "dataNode*segment*insertBufSize": 9159613931,
+      "rootCoord*minSegmentSizeToEnableIndex": 2256
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09292470642831176,
+    "Time": 276,
+    "RPS": 111.73687916101997
+  },
+  {
+    "iteration": 241,
+    "time": 62686,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 8626,
+      "nprobe": 7245,
+      "m": 32,
+      "nbits": 6,
+      "M": 57,
+      "efConstruction": 179,
+      "ef": 498,
+      "reorder_k": 122
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8416,
+      "dataCoord*segment*sealProportion": 0.4,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 3397,
+      "dataNode*segment*insertBufSize": 4184030279,
+      "rootCoord*minSegmentSizeToEnableIndex": 6347
+    },
+    "precisions": 0.99997,
+    "p95time": 0.087354822224006,
+    "Time": 265,
+    "RPS": 170.74500385259947
+  },
+  {
+    "iteration": 242,
+    "time": 62964,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 4494,
+      "nprobe": 2741,
+      "m": 2,
+      "nbits": 4,
+      "M": 50,
+      "efConstruction": 501,
+      "ef": 916,
+      "reorder_k": 349
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 9031,
+      "dataCoord*segment*sealProportion": 0.57,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 100000,
+      "dataNode*segment*insertBufSize": 3181495752,
+      "rootCoord*minSegmentSizeToEnableIndex": 1516
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09160092670936137,
+    "Time": 277,
+    "RPS": 111.41061320157866
+  },
+  {
+    "iteration": 243,
+    "time": 63244,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 1396,
+      "nprobe": 698,
+      "m": 4,
+      "nbits": 2,
+      "M": 55,
+      "efConstruction": 250,
+      "ef": 285,
+      "reorder_k": 116
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 610,
+      "dataCoord*segment*sealProportion": 0.35,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 16995,
+      "dataNode*segment*insertBufSize": 10000000000,
+      "rootCoord*minSegmentSizeToEnableIndex": 7971
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09422088172286748,
+    "Time": 278,
+    "RPS": 110.09454471151938
+  },
+  {
+    "iteration": 244,
+    "time": 63511,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 9130,
+      "nprobe": 5204,
+      "m": 8,
+      "nbits": 1,
+      "M": 44,
+      "efConstruction": 463,
+      "ef": 882,
+      "reorder_k": 102
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 5537,
+      "dataCoord*segment*sealProportion": 0.36,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 99194,
+      "dataNode*segment*insertBufSize": 2116791947,
+      "rootCoord*minSegmentSizeToEnableIndex": 9315
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08126915257889777,
+    "Time": 266,
+    "RPS": 169.57685633116586
+  },
+  {
+    "iteration": 245,
+    "time": 63778,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 10000,
+      "nprobe": 2800,
+      "m": 128,
+      "nbits": 4,
+      "M": 64,
+      "efConstruction": 372,
+      "ef": 461,
+      "reorder_k": 626
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 10000,
+      "dataCoord*segment*sealProportion": 0.48,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 98428,
+      "dataNode*segment*insertBufSize": 6237169284,
+      "rootCoord*minSegmentSizeToEnableIndex": 441
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08599135607946665,
+    "Time": 266,
+    "RPS": 167.11163647268413
+  },
+  {
+    "iteration": 246,
+    "time": 64056,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6684,
+      "nprobe": 66,
+      "m": 64,
+      "nbits": 6,
+      "M": 33,
+      "efConstruction": 444,
+      "ef": 908,
+      "reorder_k": 674
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4071,
+      "dataCoord*segment*sealProportion": 0.06,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": true,
+      "common*gracefulTime": 55530,
+      "dataNode*segment*insertBufSize": 3809091471,
+      "rootCoord*minSegmentSizeToEnableIndex": 602
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09137884322553871,
+    "Time": 276,
+    "RPS": 111.94536923988058
+  },
+  {
+    "iteration": 247,
+    "time": 64334,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 6700,
+      "nprobe": 3551,
+      "m": 4,
+      "nbits": 3,
+      "M": 45,
+      "efConstruction": 466,
+      "ef": 313,
+      "reorder_k": 480
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 650,
+      "dataCoord*segment*sealProportion": 0.22,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 28749,
+      "dataNode*segment*insertBufSize": 3448843717,
+      "rootCoord*minSegmentSizeToEnableIndex": 100
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09373530053999272,
+    "Time": 277,
+    "RPS": 111.01888873176937
+  },
+  {
+    "iteration": 248,
+    "time": 64612,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 5230,
+      "nprobe": 2824,
+      "m": 64,
+      "nbits": 9,
+      "M": 59,
+      "efConstruction": 482,
+      "ef": 201,
+      "reorder_k": 828
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 8889,
+      "dataCoord*segment*sealProportion": 0.16,
+      "queryCoord*autoHandoff": true,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 12920,
+      "dataNode*segment*insertBufSize": 7741305457,
+      "rootCoord*minSegmentSizeToEnableIndex": 9276
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09273058269172907,
+    "Time": 277,
+    "RPS": 110.86039109794623
+  },
+  {
+    "iteration": 249,
+    "time": 64890,
+    "index_conf": {
+      "index_type": "FLAT",
+      "nlist": 8364,
+      "nprobe": 7527,
+      "m": 8,
+      "nbits": 1,
+      "M": 13,
+      "efConstruction": 392,
+      "ef": 871,
+      "reorder_k": 896
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 4770,
+      "dataCoord*segment*sealProportion": 0.84,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 53435,
+      "dataNode*segment*insertBufSize": 4287211870,
+      "rootCoord*minSegmentSizeToEnableIndex": 9955
+    },
+    "precisions": 0.99997,
+    "p95time": 0.09301722522359339,
+    "Time": 278,
+    "RPS": 110.95960837837298
+  },
+  {
+    "iteration": 250,
+    "time": 65158,
+    "index_conf": {
+      "index_type": "IVF_FLAT",
+      "nlist": 10000,
+      "nprobe": 6600,
+      "m": 2,
+      "nbits": 2,
+      "M": 61,
+      "efConstruction": 441,
+      "ef": 499,
+      "reorder_k": 458
+    },
+    "system_conf": {
+      "dataCoord*segment*maxSize": 6971,
+      "dataCoord*segment*sealProportion": 0.91,
+      "queryCoord*autoHandoff": false,
+      "queryCoord*autoBalance": false,
+      "common*gracefulTime": 751,
+      "dataNode*segment*insertBufSize": 820722082,
+      "rootCoord*minSegmentSizeToEnableIndex": 7638
+    },
+    "precisions": 0.99997,
+    "p95time": 0.08403145668562502,
+    "Time": 266,
+    "RPS": 168.74790398901422
+  }
+]

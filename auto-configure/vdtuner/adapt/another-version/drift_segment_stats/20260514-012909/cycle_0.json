@@ -1,0 +1,54 @@
+{
+  "segments": [
+    {
+      "segment_id": "466281344152904542",
+      "num_rows": 15471,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344154346391",
+      "num_rows": 14814,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344153265420",
+      "num_rows": 14453,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344152574360",
+      "num_rows": 14392,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344154706512",
+      "num_rows": 5497,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344153625514",
+      "num_rows": 15565,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344154816514",
+      "num_rows": 5166,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    },
+    {
+      "segment_id": "466281344153986294",
+      "num_rows": 14642,
+      "state": "3",
+      "partition_id": "466281344152372265"
+    }
+  ],
+  "total_vectors": 100000,
+  "segment_count": 8
+}

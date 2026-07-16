@@ -1,0 +1,124 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+# *.log
+# log/
+# log1/
+# nohup.out
+# *.log.*
+
+# Dataset directories - ignore all datasets
+**/datasets/*
+!**/datasets/.gitignore
+!**/datasets/random-100/
+
+# Volume directories - Docker volumes (Milvus data storage)
+**/volumes/
+**/volumes/**
+engine/**/volumes/
+vector-db-benchmark-master/engine/**/volumes/*
+*.volumes/
+# Specific volume paths
+vector-db-benchmark-master/engine/servers/*/volumes/
+vector-db-benchmark-master/engine/servers/milvus-single-node/volumes/*
+
+# Results
+results/
+**/results/*
+vector-db-benchmark-master/results/*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Custom data files
+tools/custom/data.json
+
+# Notes (if you want to ignore)
+NOTES.md
+
+# Environment variables
+.env
+.env.local
+
+# Large data files
+*.meta
+*.jsonl
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.bin
+
+# Model files (if any)
+*.model
+*.ckpt
+*.pt
+*.pth
+
+__pycache__/
+*.py[cod]
+*.log
+*.output
+*.tmp
+.DS_Store
+
+vector-db-benchmark-master/datasets/
+vector-db-benchmark-master/results/
+vector-db-benchmark-master/result*/

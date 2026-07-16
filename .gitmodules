@@ -1,0 +1,6 @@
+[submodule "ottertune-configure/ottertune"]
+	path = ottertune-configure/ottertune
+	url = https://github.com/cmu-db/ottertune.git
+[submodule "pgtuner-configure"]
+	path = pgtuner-configure
+	url = https://github.com/hao-duan/PGTuner

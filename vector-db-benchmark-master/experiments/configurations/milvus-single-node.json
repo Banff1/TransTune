@@ -1,0 +1,24 @@
+[
+  {
+    "name": "milvus-p10",
+    "engine": "milvus",
+    "connection_params": {},
+    "collection_params": {},
+    "search_params": [
+      {
+        "parallel": 10,
+        "params": {
+          "ef": 500
+        }
+      }
+    ],
+    "upload_params": {
+      "parallel": 32,
+      "index_type": "HNSW",
+      "index_params": {
+        "M": 32,
+        "efConstruction": 257
+      }
+    }
+  }
+]

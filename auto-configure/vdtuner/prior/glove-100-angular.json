@@ -1,0 +1,33 @@
+{
+  "dataset": "random-100-match-kw-small-vocab-no-filters",
+  "iterations": 100,
+  "seed": 1,
+  "index_types": ["SCANN", "AUTOINDEX","IVF_PQ"],
+  "tune_knobs": ["nbits",
+    "M",
+    "rootCoord*minSegmentSizeToEnableIndex",
+    "dataCoord*segment*maxSize",
+    "common*gracefulTime",
+    "reorder_k",
+    "ef",
+    "nprobe",
+    "nlist",
+    "m"
+  ],
+  "overrides": {
+    "nbits": {"min": 8, "max": 9},
+    "M": {"min": 32, "max": 33},
+    "rootCoord*minSegmentSizeToEnableIndex": {"min": 100, "max": 10000},
+    "dataCoord*segment*maxSize": {"min": 100, "max": 10000},
+    "common*gracefulTime": {"min": 100, "max": 100000},
+    "reorder_k": {"min": 100, "max": 1000},
+    "ef": {"min": 500, "max": 501},
+    "nprobe": {"min": 35, "max": 10000},
+    "nlist": {"min": 651, "max": 10000},
+    "m": {"enum_values": [16]}
+  }
+}
+
+
+
+

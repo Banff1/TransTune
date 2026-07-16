@@ -1,0 +1,288 @@
+{
+  "dataset_file": "/path/to/TransTune/auto-configure/vdtuner/perf-predict-model/random-geo-radius-2048-angular-no-filters.xlsx",
+  "top_rps_configs": [
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9630100000000003,
+      "p95time": 0.004685562336817384,
+      "RPS": 959.9255685631456
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9907600000000001,
+      "p95time": 0.004866063850931821,
+      "RPS": 957.6293489029189
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9591900000000001,
+      "p95time": 0.004315315838903188,
+      "RPS": 956.226511158006
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9903900000000001,
+      "p95time": 0.00438617612235248,
+      "RPS": 956.18333160597
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9998299999999999,
+      "p95time": 0.005884962691925464,
+      "RPS": 955.8621407376772
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9909599999999998,
+      "p95time": 0.006967915967106816,
+      "RPS": 955.6574872374343
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9908,
+      "p95time": 0.004645571624860166,
+      "RPS": 954.9556335495982
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.98134,
+      "p95time": 0.004932061303406953,
+      "RPS": 953.7890549709582
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.98141,
+      "p95time": 0.004473411245271563,
+      "RPS": 953.3610427737156
+    },
+    {
+      "Index_Type": "SCANN",
+      "Precisions": 0.9906300000000001,
+      "p95time": 0.004506819602102038,
+      "RPS": 952.8610865483863
+    }
+  ],
+  "top_index_types": [
+    "SCANN",
+    "IVF_SQ8",
+    "AUTOINDEX"
+  ],
+  "important_knobs": [
+    "nbits",
+    "Index_Type",
+    "M",
+    "minSegmentSizeToIndex",
+    "nlist",
+    "m",
+    "maxSize",
+    "gracefulTime",
+    "reorder_k",
+    "autoHandoff"
+  ],
+  "knob_importance": [
+    {
+      "knob": "nbits",
+      "importance": 0.24657522883938893
+    },
+    {
+      "knob": "Index_Type",
+      "importance": 0.23325387385460272
+    },
+    {
+      "knob": "M",
+      "importance": 0.1397172116000994
+    },
+    {
+      "knob": "minSegmentSizeToIndex",
+      "importance": 0.06560704891577301
+    },
+    {
+      "knob": "nlist",
+      "importance": 0.04910189856957164
+    },
+    {
+      "knob": "m",
+      "importance": 0.04432796785410771
+    },
+    {
+      "knob": "maxSize",
+      "importance": 0.030490209690730734
+    },
+    {
+      "knob": "gracefulTime",
+      "importance": 0.027361576159483775
+    },
+    {
+      "knob": "reorder_k",
+      "importance": 0.026119614475533123
+    },
+    {
+      "knob": "autoHandoff",
+      "importance": 0.025395319499053777
+    },
+    {
+      "knob": "sealProportion",
+      "importance": 0.02350669498104867
+    },
+    {
+      "knob": "insertBufSize",
+      "importance": 0.022211917575727776
+    },
+    {
+      "knob": "autoBalance",
+      "importance": 0.02116237419697996
+    },
+    {
+      "knob": "ef",
+      "importance": 0.01724690078336843
+    },
+    {
+      "knob": "nprobe",
+      "importance": 0.016993306936641178
+    },
+    {
+      "knob": "efConstruction",
+      "importance": 0.010928856067889252
+    }
+  ],
+  "knob_ranges": {
+    "nbits": {
+      "type": "numeric",
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0,
+      "median": 8.0,
+      "unique_values": [
+        8
+      ]
+    },
+    "Index_Type": {
+      "type": "categorical",
+      "unique_values": [
+        "SCANN"
+      ],
+      "value_counts": {
+        "SCANN": 33
+      }
+    },
+    "M": {
+      "type": "numeric",
+      "min": 32.0,
+      "max": 32.0,
+      "mean": 32.0,
+      "median": 32.0,
+      "unique_values": [
+        32
+      ]
+    },
+    "minSegmentSizeToIndex": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 3293.090909090909,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        7047,
+        9425,
+        10000
+      ]
+    },
+    "nlist": {
+      "type": "numeric",
+      "min": 651.0,
+      "max": 10000.0,
+      "mean": 7376.848484848485,
+      "median": 9456.0,
+      "unique_values": [
+        651,
+        1625,
+        1865,
+        2199,
+        2958,
+        3009,
+        3522,
+        4305,
+        4332,
+        5343,
+        5812,
+        6424,
+        7159,
+        7496,
+        8365,
+        9269,
+        9456,
+        9646,
+        10000
+      ]
+    },
+    "m": {
+      "type": "numeric",
+      "min": 16.0,
+      "max": 16.0,
+      "mean": 16.0,
+      "median": 16.0,
+      "unique_values": [
+        16
+      ]
+    },
+    "maxSize": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 3881.848484848485,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        3297,
+        3645,
+        4176,
+        5183,
+        10000
+      ]
+    },
+    "gracefulTime": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 100000.0,
+      "mean": 29612.909090909092,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        7794,
+        23599,
+        28032,
+        51005,
+        56119,
+        65284,
+        69690,
+        73803,
+        100000
+      ]
+    },
+    "reorder_k": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 1000.0,
+      "mean": 284.93939393939394,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        349,
+        554,
+        1000
+      ]
+    },
+    "autoHandoff": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.48484848484848486,
+      "median": 0.0,
+      "unique_values": [
+        false,
+        true
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "random-range-2048-angular-no-filters",
+  "iterations": 100,
+  "seed": 1,
+  "index_types": ["IVF_SQ8", "SCANN", "AUTOINDEX"],
+  "tune_knobs": [    "M",
+    "ef",
+    "efConstruction",
+    "common*gracefulTime",
+    "rootCoord*minSegmentSizeToEnableIndex",
+    "dataNode*segment*insertBufSize",
+    "nprobe",
+    "queryCoord*autoHandoff",
+    "dataCoord*segment*maxSize"],
+  "overrides": {
+    "M": {"min": 32, "max": 33},
+    "ef": {"min": 500, "max": 501},
+    "efConstruction": {"min": 256, "max": 257},
+    "common*gracefulTime": {"min": 100, "max": 100000},
+    "rootCoord*minSegmentSizeToEnableIndex": {"min": 100, "max": 10000},
+    "dataNode*segment*insertBufSize": {"min": 1000, "max": 10000000000},
+    "nprobe": {"min": 37, "max": 100},
+    "queryCoord*autoHandoff": {"enum_values": [true, false]},
+    "dataCoord*segment*maxSize": {"min": 100, "max": 10000}
+  }
+}

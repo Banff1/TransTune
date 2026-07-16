@@ -1,0 +1,30 @@
+{
+  "segments": [
+    {
+      "segment_id": "466298173064231163",
+      "num_rows": 49893,
+      "state": "3",
+      "partition_id": "466298173057664042"
+    },
+    {
+      "segment_id": "466298173064671375",
+      "num_rows": 1990,
+      "state": "3",
+      "partition_id": "466298173057664042"
+    },
+    {
+      "segment_id": "466298173064821379",
+      "num_rows": 2010,
+      "state": "3",
+      "partition_id": "466298173057664042"
+    },
+    {
+      "segment_id": "466298173064341163",
+      "num_rows": 50107,
+      "state": "3",
+      "partition_id": "466298173057664042"
+    }
+  ],
+  "total_vectors": 104000,
+  "segment_count": 4
+}

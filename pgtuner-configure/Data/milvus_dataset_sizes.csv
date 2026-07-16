@@ -1,0 +1,7 @@
+FileName,N,q_queries
+tiny_1_1_384,1000000.0,1000.0
+vdb_glove-100-angular,1183514.0,10000.0
+vdb_arxiv-titles-384-angular-no-filters,2138591.0,15000.0
+vdb_random-match-int-100-angular-no-filters,1000000.0,10000.0
+vdb_random-match-int-2048-angular-no-filters,100000.0,10000.0
+vdb_random-100-match-kw-small-vocab-no-filters,1000000.0,10000.0

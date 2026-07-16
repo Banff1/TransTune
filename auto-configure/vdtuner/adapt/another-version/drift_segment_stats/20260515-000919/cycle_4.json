@@ -1,0 +1,20 @@
+{
+  "segments": [
+    {
+      "segment_id": "466302738142764587",
+      "num_rows": 694179,
+      "state": "3",
+      "partition_id": "466302738136040488"
+    },
+    {
+      "segment_id": "466302738142874587",
+      "num_rows": 694335,
+      "state": "3",
+      "partition_id": "466302738136040488"
+    }
+  ],
+  "segment_count": 2,
+  "sum_segment_num_rows": 1388514,
+  "collection_num_entities": 1388514,
+  "note_zh": "sum_segment_num_rows 为 Query Segment 上报行数之和，删除与 compaction 过程中常与逻辑实体数不一致；集合真实向量条数以 collection_num_entities 为准。"
+}

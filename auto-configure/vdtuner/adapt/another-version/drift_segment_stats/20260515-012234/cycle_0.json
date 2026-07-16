@@ -1,0 +1,44 @@
+{
+  "segments": [
+    {
+      "segment_id": "466303890302835742",
+      "num_rows": 23841,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    },
+    {
+      "segment_id": "466303890301025980",
+      "num_rows": 277344,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    },
+    {
+      "segment_id": "466303890302004432",
+      "num_rows": 293191,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    },
+    {
+      "segment_id": "466303890302725739",
+      "num_rows": 22609,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    },
+    {
+      "segment_id": "466303890300695827",
+      "num_rows": 274772,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    },
+    {
+      "segment_id": "466303890302364539",
+      "num_rows": 291757,
+      "state": "3",
+      "partition_id": "466303890300077095"
+    }
+  ],
+  "segment_count": 6,
+  "sum_segment_num_rows": 1183514,
+  "collection_num_entities": 1183514,
+  "note_zh": "sum_segment_num_rows 为 Query Segment 上报行数之和，删除与 compaction 过程中常与逻辑实体数不一致；集合真实向量条数以 collection_num_entities 为准。"
+}

@@ -1,0 +1,26 @@
+{
+  "dataset": "random-geo-radius-2048-angular-no-filters",
+  "iterations": 100,
+  "seed": 1,
+  "index_types": ["SCANN", "IVF_SQ8","IVF_PQ"],
+  "tune_knobs": ["efConstruction",
+    "ef",
+    "m",
+    "dataCoord*segment*sealProportion",
+    "M",
+    "rootCoord*minSegmentSizeToEnableIndex",
+    "common*gracefulTime",
+    "dataCoord*segment*maxSize",
+    "nbits"],
+  "overrides": {
+    "efConstruction": {"min": 256, "max": 257},
+    "ef": {"min": 500, "max": 501},
+    "m": {"enum_values": [16]},
+    "dataCoord*segment*sealProportion": {"min": 0.01, "max": 0.99},
+    "M": {"min": 32, "max": 33},
+    "rootCoord*minSegmentSizeToEnableIndex": {"min": 100, "max": 10000},
+    "common*gracefulTime": {"min": 100, "max": 100000},
+    "dataCoord*segment*maxSize": {"min": 100, "max": 10000},
+    "nbits": {"min": 8, "max": 9}
+  }
+}
