@@ -8,7 +8,6 @@ This repository contains the code and configuration used for vector database tun
 - `auto-configure/transtune/prior/`: prior configuration files for online tuning.
 - `auto-configure/transtune/new_adapt/`: data-drift simulation and adaptive tuning workflows.
 - `vector-db-benchmark-master/`: vector database benchmark runner and Milvus benchmark configuration.
-- `pgtuner-configure/`, `ottertune-configure/`, `sampling-configure/`: auxiliary tuning and sampling components.
 
 ## Environment Setup
 
