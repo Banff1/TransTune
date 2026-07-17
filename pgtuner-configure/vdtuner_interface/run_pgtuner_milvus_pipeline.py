@@ -16,7 +16,7 @@ Phases
 vdtuner alignment
 -----------------
 - ``hnsw_vdtuner_env.HNSWVDTunerEnv`` exposes the same ``get_state`` / ``default_conf`` contract as
-  ``auto-configure/vdtuner`` ``RealEnv`` for HNSW triplets only (see module docstring).
+  ``auto-configure/transtune`` ``RealEnv`` for HNSW triplets only (see module docstring).
 
 Example::
 

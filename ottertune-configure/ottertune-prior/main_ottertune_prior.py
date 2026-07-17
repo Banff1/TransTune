@@ -6,7 +6,7 @@ Supports prior files like log/*_ottertune.json (fractional sealProportion, optio
 null precisions/RPS skipped) and legacy flat logs (integer percent, no p95time).
 Skips LHS initial design and benchmark runs for prior points.
 
-Optimization target matches VDTuner (auto-configure/vdtuner/optimizer_pobo_sa.py reward_transform):
+Optimization target matches VDTuner (auto-configure/transtune/optimizer_pobo_sa.py reward_transform):
 per index_type, nondominated sort and the same reference-point normalization for
 (precision, RPS); GPRGD fits a scalar — we minimize -(min(norm_precision, norm_RPS)).
 """
@@ -123,7 +123,7 @@ def run_engine_test(dataset: str, use_sudo=None):
 
 def fast_non_dominated_sort(P: np.ndarray):
     """
-    Same 2-D dominance rule as auto-configure/vdtuner/optimizer_pobo_sa.py.
+    Same 2-D dominance rule as auto-configure/transtune/optimizer_pobo_sa.py.
     P: (n, 2), larger is better on both axes.
     Returns (rank, fronts) where fronts[0] is the Pareto front indices.
     """

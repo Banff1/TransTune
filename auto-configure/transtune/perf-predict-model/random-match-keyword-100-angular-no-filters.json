@@ -1,0 +1,268 @@
+{
+  "dataset_file": "/path/to/TransTune/auto-configure/transtune/perf-predict-model/random-match-keyword-100-angular-no-filters.xlsx",
+  "top_index_types": [
+    "SCANN",
+    "IVF_PQ",
+    "HNSW"
+  ],
+  "important_knobs": [
+    "Index_Type",
+    "ef",
+    "M",
+    "nprobe",
+    "insertBufSize",
+    "autoHandoff",
+    "gracefulTime",
+    "efConstruction",
+    "maxSize",
+    "minSegmentSizeToIndex"
+  ],
+  "knob_importance": [
+    {
+      "knob": "Index_Type",
+      "importance": 0.34250212535661684
+    },
+    {
+      "knob": "ef",
+      "importance": 0.16176951704248704
+    },
+    {
+      "knob": "M",
+      "importance": 0.14776502687358437
+    },
+    {
+      "knob": "nprobe",
+      "importance": 0.09595582356222632
+    },
+    {
+      "knob": "insertBufSize",
+      "importance": 0.07204896232498216
+    },
+    {
+      "knob": "autoHandoff",
+      "importance": 0.06710633501781361
+    },
+    {
+      "knob": "gracefulTime",
+      "importance": 0.029733896512238848
+    },
+    {
+      "knob": "efConstruction",
+      "importance": 0.024881728680336394
+    },
+    {
+      "knob": "maxSize",
+      "importance": 0.016710986515588177
+    },
+    {
+      "knob": "minSegmentSizeToIndex",
+      "importance": 0.016361757803407474
+    },
+    {
+      "knob": "sealProportion",
+      "importance": 0.006131418787261716
+    },
+    {
+      "knob": "nlist",
+      "importance": 0.005464740544938852
+    },
+    {
+      "knob": "m",
+      "importance": 0.005245099352283507
+    },
+    {
+      "knob": "nbits",
+      "importance": 0.004943622334503063
+    },
+    {
+      "knob": "autoBalance",
+      "importance": 0.0025656903188719022
+    },
+    {
+      "knob": "reorder_k",
+      "importance": 0.0008132689728596954
+    }
+  ],
+  "knob_ranges": {
+    "Index_Type": {
+      "type": "categorical",
+      "unique_values": [
+        "HNSW",
+        "SCANN"
+      ],
+      "value_counts": {
+        "HNSW": 23,
+        "SCANN": 7
+      }
+    },
+    "ef": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 500.0,
+      "mean": 212.3,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        101,
+        135,
+        139,
+        142,
+        151,
+        276,
+        325,
+        500
+      ]
+    },
+    "M": {
+      "type": "numeric",
+      "min": 16.0,
+      "max": 56.0,
+      "mean": 33.6,
+      "median": 33.0,
+      "unique_values": [
+        16,
+        23,
+        25,
+        27,
+        28,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        39,
+        56
+      ]
+    },
+    "nprobe": {
+      "type": "numeric",
+      "min": 8.0,
+      "max": 8000.0,
+      "mean": 729.9333333333333,
+      "median": 8.0,
+      "unique_values": [
+        8,
+        184,
+        420,
+        2600,
+        2710,
+        3900,
+        8000
+      ]
+    },
+    "insertBufSize": {
+      "type": "numeric",
+      "min": 1000.0,
+      "max": 10000000000.0,
+      "mean": 2602283990.4,
+      "median": 1000.0,
+      "unique_values": [
+        1000,
+        280706208,
+        2664675840,
+        3356297984,
+        3361529088,
+        3434169344,
+        4757863424,
+        5455938560,
+        5894565376,
+        6202853888,
+        7311827968,
+        7622536704,
+        7725539328,
+        10000000000
+      ]
+    },
+    "autoHandoff": {
+      "type": "numeric",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8333333333333334,
+      "median": 1.0,
+      "unique_values": [
+        false,
+        true
+      ]
+    },
+    "gracefulTime": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 100000.0,
+      "mean": 38564.166666666664,
+      "median": 12818.5,
+      "unique_values": [
+        100,
+        11762,
+        13875,
+        24250,
+        29984,
+        45781,
+        54947,
+        74926,
+        100000
+      ]
+    },
+    "efConstruction": {
+      "type": "numeric",
+      "min": 114.0,
+      "max": 512.0,
+      "mean": 394.76666666666665,
+      "median": 446.5,
+      "unique_values": [
+        114,
+        212,
+        256,
+        260,
+        270,
+        321,
+        391,
+        441,
+        443,
+        450,
+        493,
+        512
+      ]
+    },
+    "maxSize": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 3880.3,
+      "median": 100.0,
+      "unique_values": [
+        100,
+        2626,
+        3228,
+        4540,
+        7669,
+        8826,
+        8954,
+        8966,
+        10000
+      ]
+    },
+    "minSegmentSizeToIndex": {
+      "type": "numeric",
+      "min": 100.0,
+      "max": 10000.0,
+      "mean": 4061.9333333333334,
+      "median": 3714.5,
+      "unique_values": [
+        100,
+        1239,
+        3331,
+        4098,
+        4225,
+        4917,
+        5594,
+        6168,
+        6694,
+        6882,
+        7927,
+        9483,
+        10000
+      ]
+    }
+  }
+}

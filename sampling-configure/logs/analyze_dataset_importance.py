@@ -35,7 +35,7 @@ PRECISION_THRESHOLD = 0.9  # 只统计Precisions大于此值的配置
 RPS_THRESHOLD = 1.1
 
 # 数据目录
-DATA_DIR = "/path/to/TransTune/auto-configure/vdtuner/log3"
+DATA_DIR = "/path/to/TransTune/auto-configure/transtune/log3"
 # ==================================================
 
 

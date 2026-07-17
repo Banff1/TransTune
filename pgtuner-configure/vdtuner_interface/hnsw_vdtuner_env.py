@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-HNSW-only environment matching the vdtuner RealEnv contract (see auto-configure/vdtuner/utils.py).
+HNSW-only environment matching the vdtuner RealEnv contract (see auto-configure/transtune/utils.py).
 
 - ``names``: [M, efConstruction, ef]
 - ``get_state(knob_vals_arr)`` with rows in [0,1]^3

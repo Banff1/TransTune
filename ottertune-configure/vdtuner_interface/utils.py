@@ -131,7 +131,7 @@ class RealEnv:
             configure_system(filter_system_rule(system_conf))
 
             try:
-                # Use Popen with explicit args (no shell) - ref: auto-configure/vdtuner/utils.py
+                # Use Popen with explicit args (no shell) - ref: auto-configure/transtune/utils.py
                 # Python 3.6: use universal_newlines=True (text=True requires 3.7+)
                 cmd = ["timeout", "2000", RUN_ENGINE_PATH, "milvus-single-node", "milvus-p10", str(self.dataset)]
                 if self.use_sudo:

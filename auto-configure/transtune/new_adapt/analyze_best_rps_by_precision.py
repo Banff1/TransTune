@@ -17,7 +17,7 @@ import pandas as pd
 DEFAULT_FILE = (
     # "/path/to/TransTune/auto-configure/transtune/log3/"
     # "random-100-match-kw-small-vocab-no-filters.xlsx"
-    "/path/to/TransTune/sampling-configure/logs/glove-100-angular.xlsx"
+    "/path/to/TransTune/auto-configure/transtune/new_adapt/glove-100-angular-drifted.xlsx"
 )
 DEFAULT_THRESHOLDS = [0.85, 0.90, 0.95]
 

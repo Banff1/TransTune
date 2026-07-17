@@ -3,7 +3,7 @@
 """
 OtterTune / VDTuner 调优 JSON → xlsx。
 
-默认：与 auto-configure/vdtuner/prior/*.xlsx 相同的宽表布局（22 列），
+默认：与 auto-configure/transtune/prior/*.xlsx 相同的宽表布局（22 列），
 输入默认 ottertune-configure/log/random-match-int-100-angular-no-filters.json。
 
 可选 --legacy-normalize：旧版 json_normalize 带点号列名的展平方式。

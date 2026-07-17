@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Decision space for PGTuner QPP + PCR aligned with ``auto-configure/vdtuner/main_tuner_priors.py``.
+Decision space for PGTuner QPP + PCR aligned with ``auto-configure/transtune/main_tuner_priors.py``.
 
 **Unified ``--prior-config`` JSON** (single file):
 
